@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e24099ab439475a8d96dd9be049a3d4, type: 3}
+  m_Name: ActiveSeason
+  m_EditorClassIdentifier:
+  seasonId: S1
+  displayName: SEASON 1
+  startUtc: 2026-10-10T00:00:00Z
+  endUtc: 2026-11-02T00:00:00Z
+  releaseReady: 1
+  xpPerLevel: 1000
+  xpGrowth: 1.05
+  premiumSku: SEASON1_PASS
+  levelItemId: SEASONPASS_S1_LEVEL
+  levels:
+  - track: 0
+    reward:
+      kind: 0
+      itemId: GhostMan_BODY
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: 7249d39bb2ec42d418f1d8046036fbb7, type: 2}
+      rarity: 2
+      featured: 1
+      comingSoon: 0
+  - track: 1
+    reward:
+      kind: 2
+      itemId:
+      amount: 500
+      displayName:
+      icon: {fileID: 0}
+      rarity: 0
+      featured: 0
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: TM_Face
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: 0a85f0885008d2849a122c73459b40f8, type: 2}
+      rarity: 1
+      featured: 0
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: SKELETON_PLAYERMODEL
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: 44ac3fda8b8523442b5427e201c7f539, type: 2}
+      rarity: 2
+      featured: 1
+      comingSoon: 0
+  - track: 1
+    reward:
+      kind: 0
+      itemId: GGS_MASK
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: 8047b0e638e65084fa48a222b1396d92, type: 2}
+      rarity: 0
+      featured: 0
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: BloodMoonGusBTMSkin
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: d16afc5d828bec0418382d04e52cb53d, type: 2}
+      rarity: 2
+      featured: 0
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: HORRORBOI_PLAYERMODEL
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: 25f73528422f3ca4f9ab4bd039882f69, type: 2}
+      rarity: 2
+      featured: 1
+      comingSoon: 0
+  - track: 1
+    reward:
+      kind: 1
+      itemId:
+      amount: 250
+      displayName:
+      icon: {fileID: 0}
+      rarity: 1
+      featured: 0
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: SR_Chainsaw
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: bac04ffffb95ce648a25c9d368b17534, type: 2}
+      rarity: 1
+      featured: 0
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: HEADLESS_HORSEMAN_PLAYERMODEL
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: 44da842375c2ec14e80df4ab55170427, type: 2}
+      rarity: 2
+      featured: 1
+      comingSoon: 0
+  - track: 1
+    reward:
+      kind: 2
+      itemId:
+      amount: 750
+      displayName:
+      icon: {fileID: 0}
+      rarity: 0
+      featured: 0
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: SawRunnerBTMSkin
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: c246ccea617bae6479042c8431a174f3, type: 2}
+      rarity: 2
+      featured: 0
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: DEAD_APE_PLAYERMODEL
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: 16c8e0ae01b8f5243b996bdc4bef0d20, type: 2}
+      rarity: 2
+      featured: 1
+      comingSoon: 0
+  - track: 1
+    reward:
+      kind: 0
+      itemId: GGS_SCYTHE
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: ade22fbe4749a9b49ac0224bf2d9adce, type: 2}
+      rarity: 0
+      featured: 0
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: BM_HEAD
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: 3bf3d3d838843734e89c40f1872fe0ce, type: 2}
+      rarity: 1
+      featured: 0
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: DRACULA_BODY
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: 3bbffa330caac694fbbd047c13ee75a1, type: 2}
+      rarity: 2
+      featured: 1
+      comingSoon: 0
+  - track: 1
+    reward:
+      kind: 1
+      itemId:
+      amount: 500
+      displayName:
+      icon: {fileID: 0}
+      rarity: 1
+      featured: 0
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: SledgeBTMSkin
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: 8b118f79658280a4b8d513fd9996cd1e, type: 2}
+      rarity: 2
+      featured: 0
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: FRANKENSTEIN_BODY
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: 362f3fbd4892ea747a047aa7b396ceff, type: 2}
+      rarity: 2
+      featured: 1
+      comingSoon: 0
+  - track: 0
+    reward:
+      kind: 0
+      itemId: PUMPKIN_LAUNCHER
+      amount: 0
+      displayName:
+      icon: {fileID: 21300000, guid: 14267b5f56bbe924291d2ac9b6b259c1, type: 2}
+      rarity: 2
+      featured: 1
+      comingSoon: 0
+  dailyPool:
+  - {fileID: 11400000, guid: dfe3273ebf8884b4c9b607f1ebf575bb, type: 2}
+  - {fileID: 11400000, guid: 9b67ab5a2fa831b4e8b425f9e4a7593e, type: 2}
+  - {fileID: 11400000, guid: 56619cddea68de94d8f8f4bce2588773, type: 2}
+  - {fileID: 11400000, guid: b98e26bebe1aefb4ea71d085df6c9f42, type: 2}
+  - {fileID: 11400000, guid: a156f84ebeb869941bf3c003c641d9f4, type: 2}
+  - {fileID: 11400000, guid: 69348f233077a5c4aadbb546b93ee80a, type: 2}
+  dailyCount: 3
+  challenges:
+  - {fileID: 11400000, guid: 103d1540d5231454f9bdd0736e26fff3, type: 2}
+  - {fileID: 11400000, guid: bb6b991af54787f4fa17a551370b276a, type: 2}
+  - {fileID: 11400000, guid: 8c2a24b62c067c644a9fc3e87f42749b, type: 2}
+  - {fileID: 11400000, guid: c78d33188e25d23478c87724241135c0, type: 2}
+  - {fileID: 11400000, guid: 66f38f77d54c9a14aa8aeb8f95ecc4cd, type: 2}
+  - {fileID: 11400000, guid: be405dbbc5bc088449c791ccd05df255, type: 2}
+  - {fileID: 11400000, guid: a709be7b59f838e49a5fd04b4f544ec9, type: 2}
+  - {fileID: 11400000, guid: 30344f7f62aae4e44a7eb079422fef90, type: 2}
+  - {fileID: 11400000, guid: 79327b7f32017524c838aa22c1ba8d93, type: 2}

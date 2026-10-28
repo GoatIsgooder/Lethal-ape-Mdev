@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51d9a765ea203ec1894291c83d2baa5, type: 3}
+  m_Name: MapShaderLibrary
+  m_EditorClassIdentifier:
+  entries:
+  - approvedName: LethalApe/Lit
+    baked: {fileID: 4800000, guid: d09d9dd94430e0446a7e6de4cecd33b4, type: 3}
+    probe: {fileID: 4800000, guid: 4e191857226b51a4bbd17c57a5cbeed3, type: 3}
+  - approvedName: LethalApe/Lit Cutout
+    baked: {fileID: 4800000, guid: 38f8ddc6e79b3514896d5c4d33c1117d, type: 3}
+    probe: {fileID: 4800000, guid: 49ae59a0958131545882f54fab1473a2, type: 3}
+  - approvedName: LethalApe/Unlit
+    baked: {fileID: 4800000, guid: c04d10fcdeb9a3b4fb94e4a4ed60bef2, type: 3}
+    probe: {fileID: 0}
+  - approvedName: LethalApe/Unlit Cutout
+    baked: {fileID: 4800000, guid: d42db9d3d3d5d4445898cb3095a7b05c, type: 3}
+    probe: {fileID: 0}
+  - approvedName: LethalApe/Unlit Transparent
+    baked: {fileID: 4800000, guid: 56e074a40a8e4e9439c42130e62de526, type: 3}
+    probe: {fileID: 0}
+  - approvedName: LethalApe/Unlit Additive
+    baked: {fileID: 4800000, guid: a2729919754a4f14285d4488b4bd6059, type: 3}
+    probe: {fileID: 0}
+  - approvedName: LethalApe/Water
+    baked: {fileID: 4800000, guid: 97dade61274d5de43864e4a97124cfe1, type: 3}
+    probe: {fileID: 0}
+  - approvedName: LethalApe/Particles Alpha
+    baked: {fileID: 4800000, guid: 3c76ac40a510a9a42be9d2558a7031e7, type: 3}
+    probe: {fileID: 0}
+  - approvedName: LethalApe/Particles Additive
+    baked: {fileID: 4800000, guid: 944b790834449294a980a9c838809455, type: 3}
+    probe: {fileID: 0}
+  - approvedName: LethalApe/Skybox Gradient
+    baked: {fileID: 4800000, guid: 4872ac2ceb5e5ba4da8e59fae58cf4a3, type: 3}
+    probe: {fileID: 0}
+  - approvedName: LethalApe/Skybox Cubemap
+    baked: {fileID: 4800000, guid: 9f8e5f27574d78a4d9fa99fc0007b8f2, type: 3}
+    probe: {fileID: 0}
+  fallback: {fileID: 4800000, guid: 4e191857226b51a4bbd17c57a5cbeed3, type: 3}

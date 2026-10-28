@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01aa5f4977d2522fd41adadd11ecb4b1, type: 3}
+  m_Name: roar
+  m_EditorClassIdentifier:
+  id: roar
+  displayName: Roar
+  description: Hold it, then make a fist to crush it. Every survivor shows through walls for 7 seconds and you surge forward.
+  branch: 2
+  role: 1
+  kind: 1
+  prerequisites:
+  - {fileID: 11400000, guid: a308e18844e6d524a8556cc928ab0358, type: 2}
+  cost: 300
+  effect: 8
+  duration: 7
+  magnitude: 1.15
+  chargesPerRound: 1
+  tint: {r: 0.78, g: 0.04, b: 0.04, a: 1}
+  heldPrefab: {fileID: 1709254077376921, guid: d8d2478efd6bac742b13b196349ae926, type: 2}

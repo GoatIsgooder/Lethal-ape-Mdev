@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 124e0aeab016f394befb063c39db072e, type: 3}
+  m_Name: BtmTechTreeCatalog
+  m_EditorClassIdentifier:
+  items:
+  - {fileID: 11400000, guid: 8e0f5428ee576d049865ff45386964b9, type: 2}
+  - {fileID: 11400000, guid: 000dd7eb189cec74683c027bee898ece, type: 2}
+  - {fileID: 11400000, guid: 167ea8bc03bfbe64ea76a320c9e5c33d, type: 2}
+  - {fileID: 11400000, guid: 5aeacde3f4af427478f5e41a028dd0ea, type: 2}
+  - {fileID: 11400000, guid: f74886c73247d0543977fafd5134a91b, type: 2}
+  - {fileID: 11400000, guid: 49337fc1645e84045894eeba336eb984, type: 2}
+  - {fileID: 11400000, guid: 41ba52d24bc0cd443ae709643758f115, type: 2}
+  - {fileID: 11400000, guid: a308e18844e6d524a8556cc928ab0358, type: 2}
+  - {fileID: 11400000, guid: fdc1c17ce3e2231429bcf3117085b357, type: 2}
+  - {fileID: 11400000, guid: 0711bae270cca4245be5cdca8925726e, type: 2}
+  - {fileID: 11400000, guid: 91cdf6492eb1b4b418a3ee6bb04126b3, type: 2}
+  participation: 10
+  survivorWin: 40
+  monsterWin: 40
+  monsterKill: 15
+  escapeBonus: 15
+  perCrankPoint: 0.15
+  crankCap: 30
+  roundCap: 150
+  baseSlots: 2

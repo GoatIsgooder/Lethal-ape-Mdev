@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01aa5f4977d2522fd41adadd11ecb4b1, type: 3}
+  m_Name: monster_pouch
+  m_EditorClassIdentifier:
+  id: monster_pouch
+  displayName: Monster Pouch
+  description: Carry a third item into every monster round.
+  branch: 0
+  role: 1
+  kind: 2
+  prerequisites:
+  - {fileID: 11400000, guid: fdc1c17ce3e2231429bcf3117085b357, type: 2}
+  cost: 400
+  effect: 9
+  duration: 0
+  magnitude: 1
+  chargesPerRound: 1
+  tint: {r: 0.84, g: 0.66, b: 0.36, a: 1}
+  heldPrefab: {fileID: 0}

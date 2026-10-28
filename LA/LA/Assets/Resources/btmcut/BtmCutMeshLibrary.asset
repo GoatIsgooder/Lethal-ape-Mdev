@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c7095d9ce1f1a8b7d758886341bb2f7, type: 3}
+  m_Name: BtmCutMeshLibrary
+  m_EditorClassIdentifier:
+  entries:
+  - source: {fileID: 4300000, guid: b6efb2b5846d79c488ffe2f1044136dd, type: 2}
+    resource: BtmCut/Meshes/ApeGamesWear_001_9d64a081_f16306e5
+    hash: 49b18820f0f79901e2e8458f7840aab2
+  - source: {fileID: 4300000, guid: 32e9875a2305ec04a8016b59540f05c8, type: 2}
+    resource: BtmCut/Meshes/Argentina_53a0fdf5_36fcd275
+    hash: 4fa50a7f0e737df351d51d9f8badc0ac
+  - source: {fileID: 4300000, guid: 894cebc7c52d927458dbb25dde05f2fb, type: 2}
+    resource: BtmCut/Meshes/BackPack_d6b0d8a6_ae7f7dde
+    hash: 6b697412cb2d4c20d842fc9b338ae2e5
+  - source: {fileID: 4300000, guid: f722307d253b0ad42b204a4e215d8514, type: 2}
+    resource: BtmCut/Meshes/Bacteria_002_14066c0f_9db48d3e
+    hash: 113620ad6059a14d8e8368bd9b5631f7
+  - source: {fileID: 4300000, guid: d5da1cc42b19c1f4a827901bca773a5c, type: 2}
+    resource: BtmCut/Meshes/Body_001_d6b0d8a6_5b73b1d0
+    hash: 9edae78c84a62d5b5046110f1cc34832
+  - source: {fileID: 4300000, guid: e3bd14d8573d5294aa16ce946290ee0e, type: 2}
+    resource: BtmCut/Meshes/Body_d6b0d8a6_8a9093a8
+    hash: 6b98a942bcc61190ea694b279dbc261b
+  - source: {fileID: 4300000, guid: aad1eb4c2211ad84fb15e59a0e12292a, type: 2}
+    resource: BtmCut/Meshes/Captain_Ape_4aea44ae_40f5246b
+    hash: a1fa3490c008b0321d06dbebf7abddfc
+  - source: {fileID: 4300000, guid: 1fdadb81a819d4a41a4b141632ff6bf0, type: 2}
+    resource: BtmCut/Meshes/EASTER_SHIRT_d8cf4f62_78f00f83
+    hash: 0f63dffc1e3332222c95a11d3d5439f5
+  - source: {fileID: 4300000, guid: 724aec395a1ba6e42b8e91e92285ce6a, type: 2}
+    resource: BtmCut/Meshes/Elf_Mesh_528499e4_00419ce0
+    hash: 9e5e336e8addb4fb7dee83f4813bf194
+  - source: {fileID: 4300000, guid: 2f8f2b64e16cc414690236e50bb44341, type: 2}
+    resource: BtmCut/Meshes/EyeL_ba22f4ab_a154e53d
+    hash: 2fa35e73d95002d836fcf5b886e51716
+  - source: {fileID: 4300000, guid: 541ffd1d0d43caf4f9eec9f0d811ec84, type: 2}
+    resource: BtmCut/Meshes/EyeR_ba22f4ab_7be3e774
+    hash: 36a5a3e6666e41910530dcaada0f9716
+  - source: {fileID: 4300000, guid: c7f9e2cdbe1d06045a938be2090176a2, type: 2}
+    resource: BtmCut/Meshes/FRONTMAN_SUIT_a5450b14_fdec68b2
+    hash: 3b206999f535184e9b5c47cbff8dc592
+  - source: {fileID: 4300000, guid: 6b0ea483e847b3c40a58715a9b33aaf8, type: 2}
+    resource: BtmCut/Meshes/FnOrigBear_f5b6a66c_3616a31c
+    hash: 2e71e8fdc0517cc3c3e0784a319cf407
+  - source: {fileID: 4300000, guid: e5515d0cf9248be4d8e2548caeabb256, type: 2}
+    resource: BtmCut/Meshes/FnOrigBunny_f5b6a66c_55552b01
+    hash: 68f484b4788c71989a28be4564227c6c
+  - source: {fileID: 4300000, guid: a344eeae719a0c64687ebdcd03d6e3c7, type: 2}
+    resource: BtmCut/Meshes/FnOrigChicken_f5b6a66c_0a64aa85
+    hash: d2473522e1df49719e10265e831164d2
+  - source: {fileID: 4300000, guid: 6dbe642cc6ddc3f4494918d5afe0ec0f, type: 2}
+    resource: BtmCut/Meshes/FnWitheredBear_21b17f80_3cfd3e91
+    hash: 3d57e95e0a893b6a07e5a55b997eaff6
+  - source: {fileID: 4300000, guid: 90f740f2547beff4ca70d794841512c2, type: 2}
+    resource: BtmCut/Meshes/FnWitheredBunny_21b17f80_731e37ce
+    hash: a208c75d2fc0423760bc3030749ad824
+  - source: {fileID: 4300000, guid: 46c2810bd0a0bd84783de60ef9abe8a0, type: 2}
+    resource: BtmCut/Meshes/FnWitheredChicken_21b17f80_18a2a258
+    hash: 8be8f8778def8e5faee1ba604879b104
+  - source: {fileID: 4300000, guid: b30370ab89e945246b3ee3f124bbf99e, type: 2}
+    resource: BtmCut/Meshes/Frank_001_ffc79145_20aaf0bf
+    hash: d45acf0ea0f224ec276e27ff27b587ce
+  - source: {fileID: 4300000, guid: 8f5102be9b6c70545afbe2ec45869195, type: 2}
+    resource: BtmCut/Meshes/GSA_PUFFER_JACKET_49c554d6_00419ce0
+    hash: 536dc377c3f85af87f531d1b80de4cb8
+  - source: {fileID: 4300000, guid: d39cacfdf0637904ba8a8bba682b514a, type: 2}
+    resource: BtmCut/Meshes/GSA_SKI_MASK_67f62cfa_00419ce0
+    hash: f8f0ee6104c164621d35063b452a2f99
+  - source: {fileID: 4300000, guid: 240e761ed0857174283b003eccc77c8f, type: 2}
+    resource: BtmCut/Meshes/GUARD_SUIT_fa8f215b_c0b385d3
+    hash: da7fea8d69ce2da5c47328e5c33e3c88
+  - source: {fileID: 4300000, guid: 79a2b82a4cb74224a8cd1ca16532da61, type: 2}
+    resource: BtmCut/Meshes/GhostFace_d7542528_224be044
+    hash: ba1247aba03bced8e80d759a3ecfc370
+  - source: {fileID: 4300000, guid: 41c3c57e662090345bade7ffdf3ad19a, type: 2}
+    resource: BtmCut/Meshes/GokuUndershirt_69b283b4_22f98f5a
+    hash: 76af68670429882f8fdd23b780626813
+  - source: {fileID: 4300000, guid: b7bc18e88898efe4d8b8dddc696161f8, type: 2}
+    resource: BtmCut/Meshes/HAZMAZ_SUIT_65b6a187_ebcd57bf
+    hash: 947a2ecd89d34e6bcbfa18776b7d6acb
+  - source: {fileID: 4300000, guid: 12caa48f5154f924d9b1aa67a928c727, type: 2}
+    resource: BtmCut/Meshes/Hair_001_ffc79145_14850b37
+    hash: a6ccc276c7d415601b70ef3ed337bf7d
+  - source: {fileID: 4300000, guid: 5aaaeaf4eccca4c499ecd19f02270b53, type: 2}
+    resource: BtmCut/Meshes/Hands_d6b0d8a6_386224d8
+    hash: 91833bd3e54ad591c1d6b449c1782e7d
+  - source: {fileID: 4300000, guid: 16212197069d3ec43bb3fc57b0c5e2bd, type: 2}
+    resource: BtmCut/Meshes/IronManSuit_ba9ab39c_81cd1c03
+    hash: c10879912205215d7471611a0cbff7d7
+  - source: {fileID: 4300000, guid: e08a1fdec9a456d4d8119a691b85bd12, type: 2}
+    resource: BtmCut/Meshes/IronMan_Face_ba9ab39c_8f8d1650
+    hash: 8842b2a2bf116517d8f32cc13442e3e4
+  - source: {fileID: 4300000, guid: 61fb5426d802abd449d6a890aaf265a9, type: 2}
+    resource: BtmCut/Meshes/KnightOutfit_aec461f7_87515b20
+    hash: 42e9fa9ac4285a5913c85fedf0a3fe92
+  - source: {fileID: 4300000, guid: f71b285040efb7f4695d7aaae59b9158, type: 2}
+    resource: BtmCut/Meshes/LAR_Ape_LOD0_001_92720eea_ea5ad0a4
+    hash: 2db50768b27f44e413c92239312b7c74
+  - source: {fileID: 4300000, guid: 57464e7033d917c45b63868adc3f3601, type: 2}
+    resource: BtmCut/Meshes/LAR_Ape_LOD0_15c8fe95_27e0a7e2
+    hash: f926886674823e522f887b8ffe4165b1
+  - source: {fileID: 4300000, guid: 6f84bad03cf0fdc44a93ff66ea72c6f1, type: 2}
+    resource: BtmCut/Meshes/LAR_Ape_LOD0_2f959ce6_27e0a7e2
+    hash: 938ec50148323bb9e0b1f070c7817b8c
+  - source: {fileID: 4300000, guid: ee2c6f8debdf9cd41b5a36789db3c921, type: 2}
+    resource: BtmCut/Meshes/LAR_Ape_LOD0_5cbb7d82_27e0a7e2
+    hash: 70a4a48279c35a1d5991dcf90d33f388
+  - source: {fileID: 4300000, guid: 7a13f8c2ab6236c468228e3dd304a8c7, type: 2}
+    resource: BtmCut/Meshes/LAR_Ape_LOD0_f1c24af1_27e0a7e2
+    hash: 938ec50148323bb9e0b1f070c7817b8c
+  - source: {fileID: 4300000, guid: 7fb4aa503f953b24796ae1bf91e5eeb6, type: 2}
+    resource: BtmCut/Meshes/LAR_Ape_LOD1_5cbb7d82_11473bf9
+    hash: dcfcdf2ce1cc4545693f96b6b032acbc
+  - source: {fileID: 4300000, guid: 9251778d8f15e6448bd9673acf0572a6, type: 2}
+    resource: BtmCut/Meshes/LAR_Ape_LOD2_5cbb7d82_5e54c2f4
+    hash: 336e9594025a9cd40cef1d2ba461d679
+  - source: {fileID: 4300000, guid: fde89b857df60dd45800a2390e96607d, type: 2}
+    resource: BtmCut/Meshes/LAR_Eyes_001_92720eea_1f85c029
+    hash: 4e6e4cdaca001689e2afc7e297a2cd47
+  - source: {fileID: 4300000, guid: 3959277ca363a6e408623b972296f619, type: 2}
+    resource: BtmCut/Meshes/LAR_Eyes_15c8fe95_4bbedab9
+    hash: 0b7116cf998d858a99b8da276b3e6dfb
+  - source: {fileID: 4300000, guid: b72abb3c02694ab40ae9258d7f583af1, type: 2}
+    resource: BtmCut/Meshes/LAR_Eyes_5cbb7d82_4bbedab9
+    hash: 530cb6e54666336f35fb7d0bbc7663db
+  - source: {fileID: 4300000, guid: 7484fcd7f4eb43b45943152b71b4af3d, type: 2}
+    resource: BtmCut/Meshes/LA_Ape_Mesh_001_ba22f4ab_5c85ddf6
+    hash: 224698810e6fbd0b1bcf5f51cd5803b0
+  - source: {fileID: 4300000, guid: a4229c9a3b90c424f8695fae60ac9c53, type: 2}
+    resource: BtmCut/Meshes/LA_Ape_Mesh_ba22f4ab_68f0110f
+    hash: 0613a61eb64eff7afa24f7ec500969b0
+  - source: {fileID: 4300000, guid: 72fcfce6360318649a07ff1ba8f3fea2, type: 2}
+    resource: BtmCut/Meshes/Lapis_Monk_Outfit_c0fe8da1_d08627e5
+    hash: 7066861c2b03e1501ea337a3f09a4a7a
+  - source: {fileID: 4300000, guid: 80b14cd7b0d4ceb4a9f17612e5c5bd97, type: 2}
+    resource: BtmCut/Meshes/MJSequinTop_001_6292d609_4b8ed3ef
+    hash: 29811173f600a6017b71fe98a8442092
+  - source: {fileID: 4300000, guid: 8ef7165ef231b344dbea41e39061cb06, type: 2}
+    resource: BtmCut/Meshes/MJSequinTop_002_6292d609_5a1d4ebc
+    hash: 2152162d575d33cc5497fe2748ea6584
+  - source: {fileID: 4300000, guid: 7dc8614c0c1a2ea42a3ab2510b9a3ab2, type: 2}
+    resource: BtmCut/Meshes/MJSequinTop_6292d609_ac7ce056
+    hash: 51b754ab12bcc6c82bd21aefe81fbe7b
+  - source: {fileID: 4300000, guid: 93e3d3406620b5248a2eafd52c76103c, type: 2}
+    resource: BtmCut/Meshes/MJ_Smooth_Criminal_001_60af6f90_ef4b9381
+    hash: 7172a88da9a64b55540df911305d24b4
+  - source: {fileID: 4300000, guid: 6b4770b1847ff5148812f47aab24def2, type: 2}
+    resource: BtmCut/Meshes/MJ_Smooth_Criminal_60af6f90_06b957e9
+    hash: a09e8a8b5138f1ec694df5400c5efda4
+  - source: {fileID: 4300000, guid: 30dbfb3d4a9df0747bc2bfa3ab4185b5, type: 2}
+    resource: BtmCut/Meshes/MafiaSuit_45740173_c95b619e
+    hash: d31397febc5d372367dfee91d4e20a4a
+  - source: {fileID: 4300000, guid: ddc9da0538779c044a71a6ee2bffa734, type: 2}
+    resource: BtmCut/Meshes/Mask_d6b0d8a6_aa9b092d
+    hash: 42122aa615975789e773e87ecdaaf54e
+  - source: {fileID: 4300000, guid: 3876ccb6a7570a84f9fdbe656219ff17, type: 2}
+    resource: BtmCut/Meshes/Miner_Bundle_4a57ac98_1f0ef0a1
+    hash: 6dcf7322fa66fb876c0d23a2023ac7fd
+  - source: {fileID: 4300000, guid: 83c40b90c2c611f448b126cf3469aa5f, type: 2}
+    resource: BtmCut/Meshes/Plane_001_d7c19e0e_5c810173
+    hash: 1a591a42b34e5afbd880cd97b7000a71
+  - source: {fileID: 4300000, guid: ccbc4e71b6014ee4f8a99b6cecfb2a88, type: 2}
+    resource: BtmCut/Meshes/Portugal_53a0fdf5_b6a5f773
+    hash: 12a8a788b67056b6efc9beb9844023f3
+  - source: {fileID: 4300000, guid: 2302cd84ac973664f8023d36835b92a9, type: 2}
+    resource: BtmCut/Meshes/Santa_Beard_f208d5dc_00419ce0
+    hash: e734a65cee548797fa12ed66a352ed9e
+  - source: {fileID: 4300000, guid: 37afaa79393e0374fa040791113d3fa0, type: 2}
+    resource: BtmCut/Meshes/Santa_Hat_385c4c7e_00419ce0
+    hash: 9c92b96b2c3d7091ef1509b7aa6dc413
+  - source: {fileID: 4300000, guid: 60925ead8f367014c80a5721066675f7, type: 2}
+    resource: BtmCut/Meshes/Santa_Outfit_fcd59472_00419ce0
+    hash: b0e6e2cda54291b5e0ef081a56fa888a
+  - source: {fileID: 4300000, guid: b7bb6e421d9d3ce4e8d95c032dd84b5e, type: 2}
+    resource: BtmCut/Meshes/Shoulderpads_f4caf9c9_00544eee
+    hash: 0f25f1a5b059ee9ee8d4ccc64a3be39c
+  - source: {fileID: 4300000, guid: 04bf8093ff32537408d6bfac895d4fbc, type: 2}
+    resource: BtmCut/Meshes/SkeletonBody_3db049cc_00419ce0
+    hash: 7d9d46211757421d895ae2a3498cd1ab
+  - source: {fileID: 4300000, guid: 20b62421aa784d14e91a7f5879798550, type: 2}
+    resource: BtmCut/Meshes/SkeletonBody_DEAD_APE_PLAYERMODEL_776776f2_00419ce0
+    hash: ac97232ff14a28d966d5a39b10c52f66
+  - source: {fileID: 4300000, guid: 411e00d17e049c84682a623638103af1, type: 2}
+    resource: BtmCut/Meshes/SkeletonHead_80598d8f_00419ce0
+    hash: d71f8f03ac378f5f6da2976bf1f2c283
+  - source: {fileID: 4300000, guid: 928193d35a8c56c4f978f8cdcf25f077, type: 2}
+    resource: BtmCut/Meshes/Suit_f4caf9c9_b66c26d7
+    hash: 603515100fa5120bdba2d82b1604f625
+  - source: {fileID: 4300000, guid: a9a17259241195b45984ed313f4b1c1c, type: 2}
+    resource: BtmCut/Meshes/T-SHIRT-BETTERUV_bdc280ab_2e85a39d
+    hash: 9fcbbfc76678b202dd2f421ae48e2041
+  - source: {fileID: 4300000, guid: 10046c81fcbf724499e5b45a5723a2f4, type: 2}
+    resource: BtmCut/Meshes/T-SHIRT_bdc280ab_9cc3d93e
+    hash: 39409d3c3dc6eea9af50e1058c252d29
+  - source: {fileID: 4300000, guid: 585678c5dc378b349b392890c57048a3, type: 2}
+    resource: BtmCut/Meshes/Thriler_Shirt_05bcfd0a_a8cbb097
+    hash: 86d2cab7f8bf9b4f3620fb732875d9d9
+  - source: {fileID: 4300000, guid: 1d60ed99dbc613b498caf293ab2b44be, type: 2}
+    resource: BtmCut/Meshes/VENOMFace_2f959ce6_34abe7ac
+    hash: 98c2c11dd7bea1389c49fd52885f5834
+  - source: {fileID: 4300000, guid: 6952845ca1dfb254d9578c9ada8fe011, type: 2}
+    resource: BtmCut/Meshes/WarmachineMask_f1c24af1_fe782503
+    hash: 0f2c7234752cc0ab9a85bcc06a7d4e7b
+  - source: {fileID: 4300000, guid: 93331fe4ca1dfbc4fb6cdd4050c419d3, type: 2}
+    resource: BtmCut/Meshes/WarmachineSuit_f1c24af1_c6b424c4
+    hash: c0952dfdaf34726688eaa9ec8f68ad11
+  - source: {fileID: 4300000, guid: c6be9821191688648b25d7ad9cc4da29, type: 2}
+    resource: BtmCut/Meshes/ZombieFace_05bcfd0a_1317cb07
+    hash: c743894658097b99c21304586af4a2ac
+  - source: {fileID: 4300000, guid: 58e4731f8a8cb9849ad7ce711dce1d7a, type: 2}
+    resource: BtmCut/Meshes/body_001_4d4e5065_6d3a787d
+    hash: 95821cff5644a9781b37ca8ec615fbdf

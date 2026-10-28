@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: AutumnBushSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d018c799fbc9ed8f2b7757f0e308367, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  burstPrefab: {fileID: 1709254077376921, guid: 5862f244a6bf2804fb0132f0dbfd8729, type: 2}
+  poolSize: 6
+  rustleClips:
+  - {fileID: 8300000, guid: 33d72ad359792e041ac52afafb2c4140, type: 3}
+  volume: 0.85
+  pitchRange: {x: 0.92, y: 1.08}
+  audioMinDistance: 2
+  audioMaxDistance: 22
+  burstYOffset: -2.29
+  burstScale: 4.202765
+  burstLocalY: 3.551
+  localEntryThrottle: 0.35
+  broadcast: 1
+  remoteCullDistance: 35
+  maxSendsPerWindow: 8
+  sendWindowSeconds: 3
+  hapticsOnEntry: 1
+  hapticAmplitude: 0.35
+  hapticDuration: 0.09

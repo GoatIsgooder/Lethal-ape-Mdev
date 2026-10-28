@@ -1,0 +1,894 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee5ee2c994f4b8430e4b383fcff3fb03, type: 3}
+  m_Name: MonsterIndexData
+  m_EditorClassIdentifier:
+  entries:
+  - id: Prototype
+    displayName: THE PROTOTYPE
+    description: They lurk the halls, looking for people to tear apart, be careful, they are always watching...
+    danger: 999
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - FLOOR 2
+    chaseSpeed: 9.25
+    appears: EVERYWHERE
+    source: {fileID: 1709254077376921, guid: c267ab3a9c11e604f8f8be01bb98322f, type: 2}
+    poseClip: {fileID: 7400000, guid: 98ac9e0542391e646bc9f381ab9414a9, type: 2}
+    poseTime: 0.48750004
+    facing: 359.99994
+    figure: {fileID: 4300000, guid: d66b87c073718ad49ad7ebd8e8fc4b25, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 3a87ded6747cda6439f0c049eb608c60, type: 2}
+    - {fileID: 2100000, guid: eb9e013f66de49b4a99ed54324fcf11c, type: 2}
+    - {fileID: 2100000, guid: f25d078d63dddb748aa862caec1fa330, type: 2}
+    - {fileID: 2100000, guid: 5ad16413ba6ba6240834e3686b46d63a, type: 2}
+    - {fileID: 2100000, guid: 4cb0ff946a2ba004cbdbc05387bb1398, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.75
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Prototype
+  - id: Flesher
+    displayName: FLESHER
+    description: He lurks around, looking for apes to corrupt, looking for people to eat, watch out as he is always watching...
+    danger: 500
+    hidden: 0
+    featureGate:
+    areas:
+    - CAVES
+    chaseSpeed: 8
+    appears: IN THE BASEMENT
+    source: {fileID: 1709254077376921, guid: a523090f52b5ac046b6bb052aa0e368c, type: 2}
+    poseClip: {fileID: 7400000, guid: 1a57b81addfd82f44909a4c4713d0dc5, type: 2}
+    poseTime: 0.48750004
+    facing: 179.99992
+    figure: {fileID: 4300000, guid: 9d806aa72881f2848ae4c63525aad97b, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 15f5d8a2b09c95147b40e4b888ee19ad, type: 2}
+    - {fileID: 2100000, guid: 450711baa8beba84a8b7aa458ef8aa7f, type: 2}
+    - {fileID: 2100000, guid: f840b5aa079d3854291ccda48d68b73f, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.75
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Flesher
+  - id: Grim
+    displayName: GRIM
+    description: Watch out, with his sharp claws, and his eyeless look, be aware, he is always hearing your every step...
+    danger: 300
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - FLOOR 2
+    chaseSpeed: 8
+    appears: IN MOST LEVELS
+    source: {fileID: 1709254077376921, guid: 2c948434df45f104da664a2753ff1d5f, type: 2}
+    poseClip: {fileID: 7400000, guid: f1d608db94eb570448e6b975c48bd898, type: 2}
+    poseTime: 0.50000006
+    facing: 179.99994
+    figure: {fileID: 4300000, guid: 72888227a8a304e4585deb22c321353c, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 87a4f4b2e9ac6c443a99a88617ed7435, type: 2}
+    - {fileID: 2100000, guid: fd7420bbf6429a14ebab04edcd0cdc32, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.75
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Grim
+  - id: Saw Runner
+    displayName: SAW RUNNER
+    description: With his chainsaw arms, he lurks the facility, trying to find someone to cut up...
+    danger: 300
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 2
+    chaseSpeed: 7.5
+    appears: IN MOST LEVELS
+    source: {fileID: 1709254077376921, guid: c208c9510e11a0949990713e4c43efd7, type: 2}
+    poseClip: {fileID: 7400000, guid: a61f63f42f1a6694fa864f415c774ff9, type: 2}
+    poseTime: 0.48750004
+    facing: 179.99994
+    figure: {fileID: 4300000, guid: 14594379129f27549a8073ded3ff6ff4, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: a66fd52f0f0d6664d859fda44f2a808a, type: 2}
+    - {fileID: 2100000, guid: 634e4284aea94b240b5c5b1f82c47e2a, type: 2}
+    - {fileID: 2100000, guid: 27875d7d4f093c046ae5ef335325df58, type: 2}
+    - {fileID: 2100000, guid: bebde3c4fa821f2448493e69aa06e3cc, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.75
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - SawRunner
+  - id: Sandman
+    displayName: SANDMAN
+    description: Lurking at all times, he will find you and he will get you...
+    danger: 150
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - FLOOR 2
+    chaseSpeed: 7.5
+    appears: IN MOST LEVELS
+    source: {fileID: 1709254077376921, guid: 9ca16550a0d555c44a562e521b906d00, type: 2}
+    poseClip: {fileID: 7400000, guid: 543aa4dd0cf58454495120c5f0a03955, type: 2}
+    poseTime: 0.48750004
+    facing: 179.99991
+    figure: {fileID: 4300000, guid: b663ea0fe81af3d40ae1e6bd3d9ba4ac, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: bddf35e31416d6d4aba5dae0098c0494, type: 2}
+    - {fileID: 2100000, guid: 50ecb00932298e740b26a1cc8389a008, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.5
+      y: 0.75
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Sandman
+  - id: Ash
+    displayName: ASH
+    description: Searching in the dark, be careful.
+    danger: 150
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - FLOOR 2
+    chaseSpeed: 7
+    appears: IN DARK AREAS
+    source: {fileID: 1709254077376921, guid: 9ca16550a0d555c44a562e521b906d00, type: 2}
+    poseClip: {fileID: 7400000, guid: 543aa4dd0cf58454495120c5f0a03955, type: 2}
+    poseTime: 0.48750004
+    facing: 179.99991
+    figure: {fileID: 4300000, guid: 022fafd41f56f1b4394e1356b0f80fbc, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: bddf35e31416d6d4aba5dae0098c0494, type: 2}
+    - {fileID: 2100000, guid: 9626492680874aa4ca01ed597fe15bb5, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.625
+      y: 0.75
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Ash
+  - id: Gus
+    displayName: GUS
+    description: He is near...
+    danger: 999
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - FLOOR 2
+    chaseSpeed: 10
+    appears: EVERYWHERE
+    source: {fileID: 1709254077376921, guid: a27556ede54e6bd409b6ec0b9853de61, type: 2}
+    poseClip: {fileID: 7400000, guid: 0c27faa121f943e4dba0787cfca0ef56, type: 2}
+    poseTime: 0.47500002
+    facing: 179.99974
+    figure: {fileID: 4300000, guid: 4ee9cc2189f04ba4aad90bd099d28678, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 9cf9141b0c75ad14a9093cf234367f2b, type: 2}
+    - {fileID: 2100000, guid: cbfd7f5fa4129f644b17f79383d6cb1f, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.75
+      y: 0.75
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Gus
+  - id: Lumberjack
+    displayName: LUMBERJACK
+    description: Always lurking inside caves, beware...
+    danger: 500
+    hidden: 0
+    featureGate:
+    areas:
+    - HAUNTED FOREST
+    chaseSpeed: 7.5
+    appears: IN CAVES
+    source: {fileID: 1709254077376921, guid: 501efe9682c5e044fb3985255d11a5ff, type: 2}
+    poseClip: {fileID: 7400000, guid: 1d3726bb495dbd24385687c3c88ef2a4, type: 2}
+    poseTime: 0.3625
+    facing: 179.99991
+    figure: {fileID: 4300000, guid: c24479cb21bb47048803eda96f644d8d, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: a1c7b1c982fbab748b4ea71f9f45ede3, type: 2}
+    - {fileID: 2100000, guid: 4e3a1a1ed90e4c94583af6a7b586b752, type: 2}
+    - {fileID: 2100000, guid: 398763ef6bb7b8746bf2cb70c8a67162, type: 2}
+    - {fileID: 2100000, guid: f677c55246f765643803183bd9cc2f97, type: 2}
+    - {fileID: 2100000, guid: 8cede04d83f65c047af76859c7991ab7, type: 2}
+    - {fileID: 2100000, guid: fa104544f2749164d8f28a38659183ce, type: 2}
+    - {fileID: 2100000, guid: 4fdc3d85469b5ce448cb4979b1bae1a2, type: 2}
+    - {fileID: 2100000, guid: 0ef0ffe33552aaf479ddaf1166462c42, type: 2}
+    - {fileID: 2100000, guid: cfa112cd8c0299b4bad5e431dd7f77a7, type: 2}
+    - {fileID: 2100000, guid: f840b5aa079d3854291ccda48d68b73f, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.875
+      y: 0.75
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Lumberjack
+  - id: Starved
+    displayName: STARVED
+    description: He is near...
+    danger: 999
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 5
+    chaseSpeed: 8
+    appears: AROUND THE FACILITY
+    source: {fileID: 1709254077376921, guid: ae559affaf70cbe42a34d7da13609a2f, type: 2}
+    poseClip: {fileID: 7400000, guid: 00f90fd69671d2f498bc88226817cd57, type: 2}
+    poseTime: 0.23750001
+    facing: 0.0002593994
+    figure: {fileID: 4300000, guid: af8c6528997037845997cb32296646ea, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 5294b847cc6c8b44ab1a63dc8d637c16, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.5
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Starved
+  - id: TheStalker
+    displayName: STALKER
+    description: Watch out.
+    danger: 999
+    hidden: 0
+    featureGate:
+    areas:
+    - BACKROOMS
+    chaseSpeed: 8.7
+    appears: IN THE BACKROOMS
+    source: {fileID: 1709254077376921, guid: 04a7e90d83597b44fbe5deed8de58ff8, type: 2}
+    poseClip: {fileID: 7400000, guid: 041b8a4586b03d143952567f8e29cafa, type: 2}
+    poseTime: 0.48750004
+    facing: 359.99994
+    figure: {fileID: 4300000, guid: 227f817da7c493447b9e8c5c72fa014e, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 310c5887b92602e4abd1412a2eb7ec09, type: 2}
+    - {fileID: 2100000, guid: c1e533894c8b2774280c0813e24c6dfc, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.5
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - The Stalker
+  - id: TheWeeper
+    displayName: THE WEEPER
+    description: When you look at them they freeze, but don't look for too long...
+    danger: 999
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - FLOOR 2
+    chaseSpeed: 7
+    appears: IN THE FACILITY
+    source: {fileID: 1709254077376921, guid: f741a1d1586b86e499e89d24b5d8835f, type: 2}
+    poseClip: {fileID: 7400000, guid: 9a565af297182ff408b15128594755dc, type: 2}
+    poseTime: 0.3
+    facing: 179.99995
+    figure: {fileID: 4300000, guid: cae156f9541d34a4088eeac2371536f3, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: f30c34b63f3ab28448832ed604e4190a, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.5
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Weeping Angel
+  - id: NEW
+    displayName: COMING SOON
+    description: Coming Soon.
+    danger: 999
+    hidden: 1
+    featureGate:
+    areas: []
+    chaseSpeed: 0
+    appears: IN THE FACILITY
+    source: {fileID: 0}
+    poseClip: {fileID: 0}
+    poseTime: 0
+    facing: 0
+    figure: {fileID: 0}
+    figureMaterials: []
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    monsterNames: []
+  - id: NEW (1)
+    displayName: COMING SOON
+    description: Coming Soon.
+    danger: 999
+    hidden: 1
+    featureGate:
+    areas: []
+    chaseSpeed: 0
+    appears: IN THE FACILITY
+    source: {fileID: 0}
+    poseClip: {fileID: 0}
+    poseTime: 0
+    facing: 0
+    figure: {fileID: 0}
+    figureMaterials: []
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    monsterNames: []
+  - id: NEW (2)
+    displayName: COMING SOON
+    description: Coming Soon.
+    danger: 999
+    hidden: 1
+    featureGate:
+    areas: []
+    chaseSpeed: 0
+    appears: IN THE FACILITY
+    source: {fileID: 0}
+    poseClip: {fileID: 0}
+    poseTime: 0
+    facing: 0
+    figure: {fileID: 0}
+    figureMaterials: []
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    monsterNames: []
+  - id: The Mechanic
+    displayName: THE MECHANIC
+    description: He will saw you in two.
+    danger: 999
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - FLOOR 2
+    chaseSpeed: 7
+    appears: IN THE FACILITY
+    source: {fileID: 1709254077376921, guid: 6cfd7da3cc949a94f9a605b6e64545c2, type: 2}
+    poseClip: {fileID: 7400000, guid: c397b4cd3438ed04d8b5235bc81215f0, type: 2}
+    poseTime: 0.8000001
+    facing: 180.00056
+    figure: {fileID: 4300000, guid: 143d995fc40f6a142af4ae505e32e7b5, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 73fe95c1e1a0afc4cb240476f4750ee7, type: 2}
+    - {fileID: 2100000, guid: ebfdac1dda135df4dbae779436fec344, type: 2}
+    - {fileID: 2100000, guid: ab37d19f998fe5748b1d2f3542434107, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.5
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Robot
+  - id: Crazed
+    displayName: CRAZED
+    description: Watch out, she has escaped...
+    danger: FILECORRUPTED
+    hidden: 0
+    featureGate:
+    areas:
+    - HOSPITAL
+    chaseSpeed: 8
+    appears: 0111010101001000100100
+    source: {fileID: 1709254077376921, guid: 1001e8b40c6697f4c87b7365953ec741, type: 2}
+    poseClip: {fileID: 7400000, guid: 6efd9bf038b159343a550150161f8c45, type: 2}
+    poseTime: 0.48750004
+    facing: 179.99994
+    figure: {fileID: 4300000, guid: b6ed9c5052851a043b321b1fb480c7a7, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: e237d9d4331171141a44e3c8ea1939a6, type: 2}
+    - {fileID: 2100000, guid: 9b7e2154f853b87478cf51f4f4533e21, type: 2}
+    - {fileID: 2100000, guid: 342dc940a96906f40b4849580f27fbda, type: 2}
+    - {fileID: 2100000, guid: 8418f6ecc15cf4742b14b7428f62d556, type: 2}
+    - {fileID: 2100000, guid: 1554499e7e0581341ab8196238415eb2, type: 2}
+    - {fileID: 2100000, guid: 1dbe1b02fac90034e84334b09a5b438b, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.5
+      y: 0.5
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Crazed
+  - id: Mimic
+    displayName: MIMIC
+    description: What just looks like a regular ape, is not, beware, he is always looking for someone to eat...
+    danger: 100
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - FLOOR 2
+    chaseSpeed: 7.5
+    appears: DOWNSTAIRS
+    source: {fileID: 1709254077376921, guid: 6d529f2a60b20104d93bc63c74575f5d, type: 2}
+    poseClip: {fileID: 7400000, guid: 7810c188121d55b4db71036656843c86, type: 2}
+    poseTime: 0.23750001
+    facing: 179.99994
+    figure: {fileID: 4300000, guid: 5a0e710865b3fbe41bfc9d7720afca39, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 9f83b8cb440d62e458b2a6d75226eaa4, type: 2}
+    - {fileID: 2100000, guid: 520b8fcd121dee640a790f642789bf12, type: 2}
+    - {fileID: 2100000, guid: f840b5aa079d3854291ccda48d68b73f, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.625
+      y: 0.5
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Mimic
+  - id: Slender
+    displayName: THE SLENDER TWINS
+    description: He watches you even from afar...
+    danger: 400
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - FLOOR 2
+    - FLOOR 5
+    chaseSpeed: 7.5
+    appears: IN MOST PLACES
+    source: {fileID: 0}
+    poseClip: {fileID: 7400000, guid: 2735a4a3952eebb4d88971a8eb2293cf, type: 2}
+    poseTime: 0.48750004
+    facing: 179.99994
+    figure: {fileID: 4300000, guid: 76ff53a9bdfc9f541a4ca57b65cacd14, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 5428e66d4ee34334bb2c0cde42dd644c, type: 2}
+    - {fileID: 2100000, guid: bebde3c4fa821f2448493e69aa06e3cc, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.75
+      y: 0.5
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Slender (1)
+    - Slender
+  - id: Lost
+    displayName: THE LOST
+    description: Be careful...
+    danger: 400
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 3
+    - FLOOR 4
+    chaseSpeed: 7.5
+    appears: AROUND THE FACILITY
+    source: {fileID: 1709254077376921, guid: 8a6a3ccfed1a6364ab94d56035a5f6b3, type: 2}
+    poseClip: {fileID: 7400000, guid: 3e6cd0b6809c58542afabd0540f288b4, type: 2}
+    poseTime: 0.48750004
+    facing: 179.99994
+    figure: {fileID: 4300000, guid: 98991c0a3fde65a41bce3c1efe2c3349, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: c39f19db940ebb1429884e57c2726d6c, type: 2}
+    - {fileID: 2100000, guid: e86b94007fa66af42b63a881f6a6abce, type: 2}
+    - {fileID: 2100000, guid: 45550784aaa9347419f4bf7b81278ae5, type: 2}
+    - {fileID: 2100000, guid: 217687eb8329dfb4686046bdb5bde650, type: 2}
+    - {fileID: 2100000, guid: bebde3c4fa821f2448493e69aa06e3cc, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.875
+      y: 0.5
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Lost
+  - id: Sally
+    displayName: SALLY
+    description: Searching in the dark, be careful.
+    danger: 150
+    hidden: 0
+    featureGate:
+    areas:
+    - HOSPITAL
+    chaseSpeed: 7.5
+    appears: IN HOSPITAL
+    source: {fileID: 1709254077376921, guid: dd6ae6af1100de548a35d02708840c34, type: 2}
+    poseClip: {fileID: 7400000, guid: 540a711537fd5a6479bc83e4a35634c6, type: 2}
+    poseTime: 0.48750004
+    facing: 179.99991
+    figure: {fileID: 4300000, guid: b3926f8ee5f0eed499bae9e62c5812fa, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: a047348af0519df4cbb4fdcd91180fcb, type: 2}
+    - {fileID: 2100000, guid: 1a91a3c9532b66a42bfa49f15c55e0e8, type: 2}
+    - {fileID: 2100000, guid: 85103d546e5ff00489a99e89e814506c, type: 2}
+    - {fileID: 2100000, guid: ea683b94814bc8e4a950dba8342719b3, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.25
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Sally
+  - id: TheTormented
+    displayName: THE TORMENTED
+    description: It's near...
+    danger: 600
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - CAVES
+    chaseSpeed: 10
+    appears: IN CAVES
+    source: {fileID: 1709254077376921, guid: a0de5a365a3fcc04da622f1203f163b7, type: 2}
+    poseClip: {fileID: 7400000, guid: 211bf1c9e22710745a1efa53add5e993, type: 2}
+    poseTime: 0.48750004
+    facing: 179.99991
+    figure: {fileID: 4300000, guid: 02161c81acbe6494c803aa00397070c6, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: a868dbeb7401c03489da1e72a9e0b4c5, type: 2}
+    - {fileID: 2100000, guid: 9edd6aa4e67422f40846be3c88f8af0c, type: 2}
+    - {fileID: 2100000, guid: fe2b5b53a1557174c8426fde7ab7b6fa, type: 2}
+    - {fileID: 2100000, guid: d3a93127a10d2f740a09c31caae5fac0, type: 2}
+    - {fileID: 2100000, guid: 7a070566ce612f142bb8042b36550a35, type: 2}
+    - {fileID: 2100000, guid: 4fd1d2e6f3253e34084b76db41edca4f, type: 2}
+    - {fileID: 2100000, guid: d63c79db2da402840be1abb4d1cc8af4, type: 2}
+    - {fileID: 2100000, guid: 05ef61b448786784889babef3d06dcee, type: 2}
+    - {fileID: 2100000, guid: e3c6f5b27171ef04cb147924ab77335b, type: 2}
+    - {fileID: 2100000, guid: 5a84faa8c5168344b8dc9760cd77fce4, type: 2}
+    - {fileID: 2100000, guid: bdd7443917d7fb24095734ea6d1e089c, type: 2}
+    - {fileID: 2100000, guid: be4b9858cdece3e468aa8ab35758c52e, type: 2}
+    - {fileID: 2100000, guid: 5dfd9c8f6d169514cb02cedfebacb0c1, type: 2}
+    - {fileID: 2100000, guid: b2261d04e8ab0b84c9dc13a2a4e601b2, type: 2}
+    - {fileID: 2100000, guid: f89f97f441e849349baf25b2110c0481, type: 2}
+    - {fileID: 2100000, guid: 4ffdc096415556041a1fa2d3e5f88d51, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.25
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - The Tormented
+  - id: Sheldon
+    displayName: SHELDON
+    description: He is near...
+    danger: 999
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    chaseSpeed: 9
+    appears: EVERYWHERE
+    source: {fileID: 1709254077376921, guid: 97178d8c1077ba540a4c8a38d989cfc6, type: 2}
+    poseClip: {fileID: 7400000, guid: cdf61dd5e69bc854b84951d0ac6c8698, type: 2}
+    poseTime: 0.41500005
+    facing: 179.99991
+    figure: {fileID: 4300000, guid: 2998a057287794e43bf5a15079afcb25, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 5e9abcab3064e8d49a2bd1944e6da5dc, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.25
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Sheldon
+  - id: Simon
+    displayName: SIMON
+    description: Always lurking inside level 3, beware...
+    danger: 500
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 3
+    - FLOOR 4
+    chaseSpeed: 7.5
+    appears: IN LVL2-3
+    source: {fileID: 0}
+    poseClip: {fileID: 7400000, guid: 8c94db893361a0a468b9f73f126de183, type: 2}
+    poseTime: 0.9875001
+    facing: 179.99991
+    figure: {fileID: 4300000, guid: 6ccaefdf3bf54a944884b9308a3a0b6e, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 57234ebe00f807746862e90384538d6f, type: 2}
+    - {fileID: 2100000, guid: 0096392206a485c4da49254db684f8be, type: 2}
+    - {fileID: 2100000, guid: bebde3c4fa821f2448493e69aa06e3cc, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.25
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Simon
+  - id: BMG
+    displayName: BLOOD MOON GUS
+    description: He is near...
+    danger: 999
+    hidden: 0
+    featureGate:
+    areas:
+    - BASEMENT
+    - FLOOR 1
+    chaseSpeed: 9
+    appears: AROUND THE FACILITY
+    source: {fileID: 1709254077376921, guid: a27556ede54e6bd409b6ec0b9853de61, type: 2}
+    poseClip: {fileID: 7400000, guid: 0c27faa121f943e4dba0787cfca0ef56, type: 2}
+    poseTime: 0.47500002
+    facing: 179.99974
+    figure: {fileID: 4300000, guid: 2d4aae040a22358428999199a20f2514, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 1086495d8ddf55344839d3d37b143c84, type: 2}
+    - {fileID: 2100000, guid: fc81864ce73f7504e93aec96d25e432b, type: 2}
+    - {fileID: 2100000, guid: 212c911ac32903d48b20642770faef91, type: 2}
+    - {fileID: 2100000, guid: ea27359d267594443b40fc8891070906, type: 2}
+    - {fileID: 2100000, guid: cbfd7f5fa4129f644b17f79383d6cb1f, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.5
+      y: 0.25
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Blood Moon Gus
+  - id: Crawler
+    displayName: CRAWLER
+    description: Watch out, he has escaped...
+    danger: 700
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - FLOOR 2
+    chaseSpeed: 8
+    appears: HE IS NEAR...
+    source: {fileID: 1709254077376921, guid: 8e86429a893e80445a67cbbf63ba5c0c, type: 2}
+    poseClip: {fileID: 7400000, guid: 4ee71ea2a5103d94483e387a75d225cb, type: 2}
+    poseTime: 0.48750004
+    facing: 180.00024
+    figure: {fileID: 4300000, guid: f82844d3e4cf88240954ffb03c4bc6c5, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 19f28b3341c43fa4da90ac9ed0ddcc5a, type: 2}
+    - {fileID: 2100000, guid: 1be3941458994c34cbe1a50e7eb9a5ea, type: 2}
+    - {fileID: 2100000, guid: bebde3c4fa821f2448493e69aa06e3cc, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.625
+      y: 0.25
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Crawler
+  - id: Crawler (1)
+    displayName: SLEDGE
+    description: With his sledge hammer, he will find you...
+    danger: 700
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - FLOOR 2
+    chaseSpeed: 10
+    appears: HE IS NEAR...
+    source: {fileID: 1709254077376921, guid: 9965259e422137d4da7e5f828d233a86, type: 2}
+    poseClip: {fileID: 7400000, guid: 45bd49ec1fae88d4786d5ce6ac8aa6cd, type: 2}
+    poseTime: 0.48750004
+    facing: 179.99994
+    figure: {fileID: 4300000, guid: b5ab1fce2a03ecd4f8e6ff18ed1f1475, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 5f7ce298571053e4b9cc06139ceeadd0, type: 2}
+    - {fileID: 2100000, guid: 76e08bc6225e9784e9b678d527d065cf, type: 2}
+    - {fileID: 2100000, guid: 40154aa82e5bada479f197e80bc9b8cd, type: 2}
+    - {fileID: 2100000, guid: fbb3cdbbbf7b0f14b940ec9d8cc6a2cc, type: 2}
+    - {fileID: 2100000, guid: ff831d60d2cf0c3478211959ff9b5b3e, type: 2}
+    - {fileID: 2100000, guid: 841bef6e72963aa4e9e8ac471814fe2e, type: 2}
+    - {fileID: 2100000, guid: f241a8c4fa59c2b4d809c79036e0086b, type: 2}
+    - {fileID: 2100000, guid: 655948dcdf6967940a708ec74bfe8fd9, type: 2}
+    - {fileID: 2100000, guid: 3475159ccc1eaae4b8862ce9c6074d3c, type: 2}
+    - {fileID: 2100000, guid: 277d719b0aa11b241be3d7b954625bbe, type: 2}
+    - {fileID: 2100000, guid: 626adb1545412334ab935765f07deb78, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.75
+      y: 0.25
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Sledge
+  - id: Werewolf
+    displayName: WEREWOLF
+    description: He is always searching for fresh players. Beware of the werewolf.
+    danger: 100
+    hidden: 0
+    featureGate:
+    areas:
+    - HAUNTED FOREST
+    chaseSpeed: 7.5
+    appears: IN THE HAUNTED FOREST
+    source: {fileID: 1709254077376921, guid: 7e8781d17d7da4a4fa393b32a0437367, type: 2}
+    poseClip: {fileID: 7400000, guid: 9a7a357715d8d73429d4e1a5f55de85a, type: 2}
+    poseTime: 0.7375
+    facing: 179.99994
+    figure: {fileID: 4300000, guid: e85f51039440ef240bd4b164dee78b00, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: bdbfa571cdeae7f4db873c47c1be747f, type: 2}
+    - {fileID: 2100000, guid: ef3b52bf7186ee94caaa1031d541cff6, type: 2}
+    - {fileID: 2100000, guid: eec0e52c94af7ce46ac83a6296c64282, type: 2}
+    - {fileID: 2100000, guid: 3eefbfc882e80e34e9c6a6113dec4782, type: 2}
+    - {fileID: 2100000, guid: b75f74791195dd343ac0ee6b35bca18d, type: 2}
+    - {fileID: 2100000, guid: 0ff64348c7937994bb3697b9a0c2dad9, type: 2}
+    - {fileID: 2100000, guid: 45be517ca3031e440a708723e4621094, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.875
+      y: 0.25
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Werewolf
+  - id: Spider
+    displayName: SPIDER
+    description: He watches you even from afar...
+    danger: 400
+    hidden: 0
+    featureGate:
+    areas:
+    - FLOOR 1
+    - HAUNTED FOREST
+    chaseSpeed: 7.5
+    appears: IN THE HAUNTED FOREST
+    source: {fileID: 1709254077376921, guid: 8d9cd655fe901594cb73c6d9bc87f603, type: 2}
+    poseClip: {fileID: 7400000, guid: 69edea3659b68914b8c7213606db3827, type: 2}
+    poseTime: 0.48750004
+    facing: 180.00012
+    figure: {fileID: 4300000, guid: 2202565adbbad7e4f87da766299e0008, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 421ff393f28f1584e9b356f5510b6246, type: 2}
+    - {fileID: 2100000, guid: ee0bad2a067389044b9ac478ee166796, type: 2}
+    - {fileID: 2100000, guid: 60a6dc096adbbec43a6c763b83648f55, type: 2}
+    - {fileID: 2100000, guid: 334be34fa1e980746b76bf6b6582f0ea, type: 2}
+    - {fileID: 2100000, guid: 2076bcccc7fa91a4a86a0501a097eb31, type: 2}
+    - {fileID: 2100000, guid: 71787b92d3a52064aa8c865078877ab6, type: 2}
+    - {fileID: 2100000, guid: 65b993b66c133284f95d79b507e12625, type: 2}
+    - {fileID: 2100000, guid: 5e286fa52c822264c86af63249a1e432, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Spider
+  - id: Centi
+    displayName: CENTIPEDE
+    description: Be careful...
+    danger: 400
+    hidden: 0
+    featureGate:
+    areas:
+    - BACKROOMS
+    chaseSpeed: 8
+    appears: NO CLIPPED IN THE BACKROOMS
+    source: {fileID: 1709254077376921, guid: e8855463e4f6aed43abb471e07287d5c, type: 2}
+    poseClip: {fileID: 7400000, guid: e3ee04bc719110a4391611d77a609e21, type: 2}
+    poseTime: 0.48750004
+    facing: 179.99983
+    figure: {fileID: 4300000, guid: cea9b68e17839da4a8e3f030cab5ae66, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 4639786f1d3974c40b998456a65da9bd, type: 2}
+    - {fileID: 2100000, guid: c20bfd6c63b71e94c92348b75de74051, type: 2}
+    - {fileID: 2100000, guid: f66a6d8db8c9312419019ea85efa20f2, type: 2}
+    - {fileID: 2100000, guid: e07817c73f2aca442886f53a9c360635, type: 2}
+    - {fileID: 2100000, guid: a879d9ebace518a438c1480164b04fc5, type: 2}
+    - {fileID: 2100000, guid: a968cc48f113191468ece101437bb4f1, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Centipede
+  - id: Rift Ape
+    displayName: Rift Ape
+    description: A dead ape the Kevin crystal wouldn't let rest. Purple shards grow through its back. Three apes on the pads and a hand on the crystal call them up out of the ground, wave after wave. Blast them, beat them, or run far enough that the rift gives up.
+    danger: 666
+    hidden: 0
+    featureGate: KevinRift
+    areas:
+    - KEVIN RIFTS
+    chaseSpeed: 3.7
+    appears: Summoned at Kevin Rifts
+    source: {fileID: 1709254077376921, guid: 94c372be649c07f4d87127d4401ad967, type: 2}
+    poseClip: {fileID: 7400000, guid: 13e34d9b192c34b448f9a0178de01daf, type: 2}
+    poseTime: 0.5
+    facing: 15
+    figure: {fileID: 4300000, guid: 283d57c6fd448a54ca9927a7d859b0b8, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 59c539a1333599b4481c6e4b304dbee7, type: 2}
+    - {fileID: 2100000, guid: 0d48a39e5c5170748badaa46852b09ad, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.25
+      y: 0
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Rift Ape
+  - id: Banshee
+    displayName: BANSHEE
+    description: Nobody remembers who buried her. Linger by one of her graves and the candles light themselves, one by one. When the last catches, she claws out, picks someone, anyone, and comes for them. A crowd wakes her angry, and red. She can be outrun, just. If she catches you, she takes you up with her.
+    danger: 777
+    hidden: 0
+    featureGate: Banshee
+    areas:
+    - COURTYARD
+    chaseSpeed: 7.5
+    appears: Rises from her graves
+    source: {fileID: 1709254077376921, guid: a886b32e94928a442b6af154a4668ef5, type: 2}
+    poseClip: {fileID: 0}
+    poseTime: 0
+    facing: 150
+    figure: {fileID: 4300000, guid: 75dcfa782574c7c4b89ffaa54cc780fd, type: 2}
+    figureMaterials:
+    - {fileID: 2100000, guid: 813c05281c075d44391dec5a2db4d094, type: 2}
+    - {fileID: 2100000, guid: f54f5b3c4b2768d48941f8163debb55d, type: 2}
+    - {fileID: 2100000, guid: f69610b5c7327314ba13f26e0baa2ddf, type: 2}
+    thumbnailRect:
+      serializedVersion: 2
+      x: 0.375
+      y: 0
+      width: 0.125
+      height: 0.25
+    monsterNames:
+    - Banshee
+  thumbnails: {fileID: 2800000, guid: 345650430e1570c4c8b8087240777896, type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a525f97e65683f15728c36e4de11d3b, type: 3}
+  m_Name: ShopItem_MonsterScanner
+  m_EditorClassIdentifier:
+  displayName: Monster Scanner
+  kind: 2
+  tab: 0
+  icon: {fileID: 21300000, guid: cf6567a220bdff24e9f463d76940c706, type: 2}
+  price: 200
+  available: 1
+  networkedSpawn: 1
+  localPrefab: {fileID: 1709254077376921, guid: 5a5057f02581a3141a7d91e87d2426fe, type: 2}
+  networkPrefabName: Prefabs/Interactables/Networked/MonsterTracker
+  displayPrefab: {fileID: 1709254077376921, guid: 5a5057f02581a3141a7d91e87d2426fe, type: 2}

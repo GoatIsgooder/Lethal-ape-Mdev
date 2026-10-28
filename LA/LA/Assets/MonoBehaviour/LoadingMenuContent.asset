@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf90d5153916c09b22c3655ffc89fcec, type: 3}
+  m_Name: LoadingMenuContent
+  m_EditorClassIdentifier:
+  playCover: {fileID: 2800000, guid: 8ef8417261b281a48b46dd82f3a0c52c, type: 3}
+  posts:
+  - title: New loading menu
+    tag: 0
+    date: 2026-10-17
+    body: "Lethal Ape now opens on a new menu.\n\nHit <b>Play</b> to head into the lobby, catch up on dev posts here in <b>Updates</b>, or browse shots from around the game in the <b>Gallery</b> while you sign in.\n\nPoint with either controller and pull the trigger to select. Drag with the trigger held, or push the thumbstick, to scroll. <b>B</b> closes a post."
+    image: {fileID: 0}
+    pinned: 0
+  - title: The Season Pass is live
+    tag: 2
+    date: 2026-10-10
+    body: "The first Season Pass is here.\n\n<b>19 levels</b> of rewards, earned by playing and completing quests. The pass runs until <b>1 November</b>, so there's plenty of time to work through it.\n\nEvery level is unlocked by playing, and your progress is saved to your account."
+    image: {fileID: 0}
+    pinned: 0
+  - title: Join the Discord
+    tag: 4
+    date: 2026-10-01
+    body: "Bug reports, suggestions and the first look at new content all happen in our Discord.\n\n<b>discord.gg/lethalape</b>\n\nIf something breaks, a clip and the time it happened helps us fix it fast."
+    image: {fileID: 0}
+    pinned: 0
+  gallery:
+  - image: {fileID: 2800000, guid: 19d705877bd705340bf8dc1236c6ecae, type: 3}
+    title: The Haunted House
+    caption: Lobby courtyard
+  - image: {fileID: 2800000, guid: e38fc5209bab0da478c222073ca14da2, type: 3}
+    title: The Caverns
+    caption: Be The Monster
+  - image: {fileID: 2800000, guid: b4a511c406102f64bac1e7253e4573d3, type: 3}
+    title: Night Shift
+    caption: Containment wing
+  - image: {fileID: 2800000, guid: 5c8a05e7bc42ce446af52a7cbf10dd72, type: 3}
+    title: Inside the House
+    caption: Lobby
+  - image: {fileID: 2800000, guid: dcb3f0b0a98119f4a9e8d3f860ddf2c5, type: 3}
+    title: The Backrooms
+    caption: Backrooms
+  - image: {fileID: 2800000, guid: 3bff3be9e11997043b6ead8aceb24602, type: 3}
+    title: Ape Games
+    caption: Round one

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e41aeb82738cc2596b87a86ff4e8fc7c, type: 3}
+  m_Name: MapFeatureAssets
+  m_EditorClassIdentifier:
+  font: {fileID: 11400000, guid: 87e620be83eb9d04e8800ff4248bf302, type: 2}
+  panelMaterial: {fileID: 2100000, guid: 65da2d349dd53c74aa495842124d0aff, type: 2}
+  toastPanelMaterial: {fileID: 2100000, guid: b53498cf6a63d48418db72cc1f4c60ba, type: 2}
+  buttonClick: {fileID: 8300000, guid: 84df32d2ff7ba354fbc5ccaa675c630e, type: 3}
+  teleport: {fileID: 8300000, guid: 052e56f614ea7af44bdd4479450c450a, type: 3}
+  jumpPad: {fileID: 8300000, guid: 5685639e31b78f44ca47217c50e88c2e, type: 3}
+  checkpoint: {fileID: 8300000, guid: dfced441edaa8c44491326482490c29b, type: 3}
+  respawn: {fileID: 8300000, guid: 7b2fbe804d0f1a846a8d433ec9acdf1d, type: 3}
+  splash: {fileID: 8300000, guid: 61d999a1d34302945aa48cf136e45667, type: 3}
+  raceStart: {fileID: 8300000, guid: a128e5def67eadb4a9ebe1f1d070cb12, type: 3}
+  raceCheckpoint: {fileID: 8300000, guid: 1944a779675e7474b9695493ad3c67d5, type: 3}
+  raceFinish: {fileID: 8300000, guid: 1be64122b24448849a406d4084d39c0e, type: 3}
+  message: {fileID: 8300000, guid: 8547e88efb2576440b1cd49b072e1d07, type: 3}
+  sfxVolume: 0.7

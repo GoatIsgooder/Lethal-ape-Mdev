@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db73cc7e5997370d4b9ca13b7471e8e6, type: 3}
+  m_Name: MonsterIndexCatalog
+  m_EditorClassIdentifier:
+  entries:
+  - id: Prototype
+    displayName: THE PROTOTYPE
+    keys:
+    - prototype
+    featureGate:
+  - id: Flesher
+    displayName: FLESHER
+    keys:
+    - flesher
+    featureGate:
+  - id: Grim
+    displayName: GRIM
+    keys:
+    - grim
+    featureGate:
+  - id: Saw Runner
+    displayName: SAW RUNNER
+    keys:
+    - sawrunner
+    featureGate:
+  - id: Sandman
+    displayName: SANDMAN
+    keys:
+    - sandman
+    featureGate:
+  - id: Ash
+    displayName: ASH
+    keys:
+    - ash
+    featureGate:
+  - id: Gus
+    displayName: GUS
+    keys:
+    - gus
+    featureGate:
+  - id: Lumberjack
+    displayName: LUMBERJACK
+    keys:
+    - lumberjack
+    featureGate:
+  - id: Starved
+    displayName: STARVED
+    keys:
+    - starved
+    featureGate:
+  - id: TheStalker
+    displayName: STALKER
+    keys:
+    - stalker
+    featureGate:
+  - id: TheWeeper
+    displayName: THE WEEPER
+    keys:
+    - weepingangel
+    featureGate:
+  - id: The Mechanic
+    displayName: THE MECHANIC
+    keys:
+    - robot
+    featureGate:
+  - id: Crazed
+    displayName: CRAZED
+    keys:
+    - crazed
+    featureGate:
+  - id: Mimic
+    displayName: MIMIC
+    keys:
+    - mimic
+    featureGate:
+  - id: Slender
+    displayName: THE SLENDER TWINS
+    keys:
+    - slender
+    - slendertwins
+    featureGate:
+  - id: Lost
+    displayName: THE LOST
+    keys:
+    - lost
+    featureGate:
+  - id: Sally
+    displayName: SALLY
+    keys:
+    - sally
+    featureGate:
+  - id: TheTormented
+    displayName: THE TORMENTED
+    keys:
+    - tormented
+    featureGate:
+  - id: Sheldon
+    displayName: SHELDON
+    keys:
+    - sheldon
+    featureGate:
+  - id: Simon
+    displayName: SIMON
+    keys:
+    - simon
+    featureGate:
+  - id: BMG
+    displayName: BLOOD MOON GUS
+    keys:
+    - bloodmoongus
+    featureGate:
+  - id: Crawler
+    displayName: CRAWLER
+    keys:
+    - crawler
+    featureGate:
+  - id: Crawler (1)
+    displayName: SLEDGE
+    keys:
+    - sledge
+    featureGate:
+  - id: Werewolf
+    displayName: WEREWOLF
+    keys:
+    - werewolf
+    featureGate:
+  - id: Spider
+    displayName: SPIDER
+    keys:
+    - spider
+    featureGate:
+  - id: Centi
+    displayName: CENTIPEDE
+    keys:
+    - centipede
+    featureGate:
+  - id: Rift Ape
+    displayName: Rift Ape
+    keys:
+    - riftape
+    featureGate: KevinRift
+  - id: Banshee
+    displayName: BANSHEE
+    keys:
+    - banshee
+    featureGate: Banshee

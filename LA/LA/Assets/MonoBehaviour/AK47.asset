@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0098d015b3d176ce63cc6b447ce529, type: 3}
+  m_Name: AK47
+  m_EditorClassIdentifier:
+  displayName: AK-47
+  type: 0
+  slot: 0
+  fireMode: 1
+  unlockPrice: 0
+  unlockedByDefault: 1
+  storeIcon: {fileID: 0}
+  damage: 25
+  headshotMultiplier: 2
+  fireRate: 600
+  burstCount: 3
+  range: 120
+  pelletCount: 1
+  spreadDegrees: 0
+  magazineSize: 30
+  reserveAmmo: 120
+  reloadTime: 2.2
+  recoil:
+    positionKick: {x: 0.39, y: 0, z: 0}
+    rotationKick: {x: 0, y: -0.65, z: 0}
+    recoverySpeed: 12
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 20
+  explosionRadius: 0
+  beamRadius: 0
+  beamForkCount: 0
+  meleeSwingSpeed: 2.5
+  meleeReach: 0.4
+  healAmount: 25
+  twoHanded: 0
+  hapticStrength: 0.6
+  hapticDuration: 0.06
+  modelPrefab: {fileID: 0}
+  grabbablePrefab: {fileID: 1709254077376921, guid: 0523c5dd3fb00ca479e9552b96b29263, type: 2}
+  muzzleFlashPrefab: {fileID: 0}
+  impactVfxPrefab: {fileID: 0}
+  casingPrefab: {fileID: 1709254077376921, guid: 9513429f79a7dcf42a35a3890fd30b13, type: 2}
+  casingEjectSpeed: 2.5
+  casingEjectSpin: 720
+  tracerPrefab: {fileID: 1709254077376921, guid: b9f9643547c39e54ca520eb96b22fd54, type: 2}
+  tracerSpeed: 150
+  vfxLifetime: 1.5
+  fireSfx: {fileID: 8300000, guid: 77216a594e9135847adc4c6b1c8c9ea1, type: 3}
+  reloadSfx: {fileID: 8300000, guid: 89e606b7832944942b4e3b40b797db08, type: 3}
+  emptySfx: {fileID: 8300000, guid: 2e6e1333758b26245be3aae86d57f2a2, type: 3}
+  sfxVolume: 1

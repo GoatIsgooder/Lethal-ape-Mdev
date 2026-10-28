@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82dc92abb9eb370de408df96be65ec6c, type: 3}
+  m_Name: FnAudioBank
+  m_EditorClassIdentifier:
+  doorSlam:
+  - {fileID: 8300000, guid: 64200fd861765c04e8ad426b4925acf1, type: 3}
+  - {fileID: 8300000, guid: 4d653cf5969eb0646a286efaa9fa7698, type: 3}
+  - {fileID: 8300000, guid: 5f7b952963f0fd541a05243dbb025950, type: 3}
+  doorOpen: {fileID: 8300000, guid: c48188f278fb6f440951c9753788ba2d, type: 3}
+  lightOn: {fileID: 8300000, guid: 250ee184e1cc9ba43a4d09c93bf02b71, type: 3}
+  lightOff: {fileID: 8300000, guid: 485d2c7f97effb941a37bcf318017945, type: 3}
+  lightBuzzLoop: {fileID: 8300000, guid: 751619878dc470d49b62a8fc2b27146f, type: 3}
+  bang:
+  - {fileID: 8300000, guid: e59f1f7cb3cf59c41bdd12811840b2d9, type: 3}
+  - {fileID: 8300000, guid: 57400f4961fffd7428eb2119bd6db73b, type: 3}
+  - {fileID: 8300000, guid: 7b8f8a8146e2ea74cbf34fcc7845725d, type: 3}
+  bangHeavy:
+  - {fileID: 8300000, guid: 45ceef07f04c52444b1e3ae2b5cc5659, type: 3}
+  - {fileID: 8300000, guid: c7f9cb42ffa191541aa3b916f874ba17, type: 3}
+  - {fileID: 8300000, guid: 5ed4f6484db5be54893b8c4c5bcbc37e, type: 3}
+  denied: {fileID: 8300000, guid: 81b1bb6620c63634d87e5aafbf1bf0fe, type: 3}
+  jammed: {fileID: 8300000, guid: c193ea0ed099d4148aed09389e9d0a9b, type: 3}
+  buttonPress: {fileID: 8300000, guid: e0ad0986ba66f024e856aa6426a1b1d9, type: 3}
+  officeFanLoop: {fileID: 8300000, guid: 8762c520cd220904bbb9cad9600dd424, type: 3}
+  servoLoop: {fileID: 8300000, guid: 58cde1405c25a3e4faf59b3af1a84007, type: 3}
+  footsteps:
+  - {fileID: 8300000, guid: b472887039ca2cd488edb4b1a6b3b6ec, type: 3}
+  - {fileID: 8300000, guid: f7a0eccf580c6a1429a6721423f510a7, type: 3}
+  - {fileID: 8300000, guid: 24f79ff505bbbde4c8d3b930d0d9840b, type: 3}
+  - {fileID: 8300000, guid: 326eb53448d65b84aa1f004f4b70ec56, type: 3}
+  - {fileID: 8300000, guid: d3270ab146a5a214fb6ede8b939e7958, type: 3}
+  - {fileID: 8300000, guid: 2219114c8b825464a957fe896819f80a, type: 3}
+  crawlDrag:
+  - {fileID: 8300000, guid: 35a45ccf9149d584c9f4e02ffd8230f2, type: 3}
+  - {fileID: 8300000, guid: df12be9b3b4c7934fb4a0258cdfaf785, type: 3}
+  - {fileID: 8300000, guid: 5e1f52117fb309447b06141e0abccd57, type: 3}
+  - {fileID: 8300000, guid: b2a03d781dbcedb44ad2cfeacb936d37, type: 3}
+  - {fileID: 8300000, guid: e2e489267034f5b4793c4d1e2441937a, type: 3}
+  - {fileID: 8300000, guid: 571e5fcc210da18429aa2b7c9034c518, type: 3}
+  servoJerk:
+  - {fileID: 8300000, guid: 0b947b9198e970e4688cc577e1736972, type: 3}
+  - {fileID: 8300000, guid: 5601c45981ddced40a1ceaa0564bd211, type: 3}
+  - {fileID: 8300000, guid: 5b8293206ba7a5e49a67adda13609bbc, type: 3}
+  - {fileID: 8300000, guid: f2af2d9484e413b4093743cadc2c4754, type: 3}
+  breathingLoop: {fileID: 8300000, guid: 843bc8ee3ecb8c94599b864eb14ab350, type: 3}
+  bearLaugh:
+  - {fileID: 8300000, guid: bd63c753a40184646a26cab5154b2213, type: 3}
+  - {fileID: 8300000, guid: ec80398466cffe443beb0a458fd94ae6, type: 3}
+  - {fileID: 8300000, guid: a26da1ac0f4fc0b4b942b4d2052b831c, type: 3}
+  musicBox: {fileID: 8300000, guid: 8b6406819788b7949829ff92d14bdd69, type: 3}
+  kitchenClatter:
+  - {fileID: 8300000, guid: a4012ce93e5fccc498f2072fac6c3710, type: 3}
+  - {fileID: 8300000, guid: 7dd4d10a40a83ad419b580f09d028488, type: 3}
+  - {fileID: 8300000, guid: ce168cf188e53d848ba014322390b84a, type: 3}
+  - {fileID: 8300000, guid: 2cadef90e7fc0dc4a9816a5ef1379d9f, type: 3}
+  endoShriek: {fileID: 8300000, guid: 21daff707464c49478ef675faf1e5d67, type: 3}
+  powerDown: {fileID: 8300000, guid: 13dde034aae14654588c43b70da10d66, type: 3}
+  stare: {fileID: 8300000, guid: 1de939659e7cfb041907e375d46693cb, type: 3}
+  jumpCharge: {fileID: 8300000, guid: 1a7e8a0b89ed26d4da4b8617f2e3653e, type: 3}
+  jumpLaunch:
+  - {fileID: 8300000, guid: d3b487897b7857147981143c59ae9622, type: 3}
+  - {fileID: 8300000, guid: bfaecd6b72027c145bbfa32e84368e36, type: 3}
+  jumpLand:
+  - {fileID: 8300000, guid: 1f266463ac5d4b246a43d86f834b5c72, type: 3}
+  - {fileID: 8300000, guid: d6d5da00887fc1345bc837b06c736055, type: 3}
+  - {fileID: 8300000, guid: bc1e1b4d8634cc94fa172809be38fd85, type: 3}
+  spottedSting: {fileID: 8300000, guid: bc5a439e69476cb489adc3cb6ad2049d, type: 3}
+  jumpscareSting: {fileID: 8300000, guid: 5b68bf75c0ea606489524ebb06016013, type: 3}
+  chaseMusicLoop: {fileID: 8300000, guid: 3eb6b324f36840046ad2695b64e5d377, type: 3}
+  heartbeatLoop: {fileID: 8300000, guid: a0c240783165c504ea025b5ad5ec7cc9, type: 3}
+  nightAmbienceLoop: {fileID: 8300000, guid: 1f85dd7c4b0009b4ead47ae85f64a1b1, type: 3}
+  hubAmbienceLoop: {fileID: 8300000, guid: 6930c61d392dd5446a71fd8e223c735e, type: 3}
+  nightStartSting: {fileID: 8300000, guid: b5397b878ea75604e8ced4cd5264fcc7, type: 3}
+  sixAmChime: {fileID: 8300000, guid: d60a51eaaca2d9e43b43d26aec59e990, type: 3}
+  powerOut: {fileID: 8300000, guid: 6429289f941731f41b9caef756acdc2f, type: 3}
+  breakerPull: {fileID: 8300000, guid: 76153447b713111409ead4a239a6bf11, type: 3}
+  breakerWrong: {fileID: 8300000, guid: ad272cd053aff754782a443569ccaf35, type: 3}
+  breakerClunk: {fileID: 8300000, guid: c84f9d34ef645a94bad0dfc591ae0275, type: 3}
+  batteryPickup: {fileID: 8300000, guid: 99bd980864d90ec479f9a8ffd823a219, type: 3}
+  batteryDeliver: {fileID: 8300000, guid: d6c44abd223e3d34897ab46374e58181, type: 3}
+  flashlightClick: {fileID: 8300000, guid: 577cdce1c4533fe48b5b246a513fac1e, type: 3}
+  flashlightDead: {fileID: 8300000, guid: 0a389bb4d324e7f40b205f52454075bc, type: 3}
+  lureLaugh: {fileID: 8300000, guid: a428eadd8622f4a4ea121fbd72d48252, type: 3}
+  cameraSwitch: {fileID: 8300000, guid: 3325d0b44781e3742bc243a35a0a967c, type: 3}
+  staticLoop: {fileID: 8300000, guid: db0d8f6315a49dc45af3778c9f35217a, type: 3}
+  padTick: {fileID: 8300000, guid: 1d47cd2194d826a4fa9f121455ab3ad8, type: 3}
+  padGo: {fileID: 8300000, guid: 14d4831f2b730d242b874480e1998296, type: 3}
+  padReject: {fileID: 8300000, guid: 86cb90780e4bd83438110f1f4ee6330c, type: 3}
+  keypadBeep: {fileID: 8300000, guid: 24ff9ed039f14d942896f92a0cb092e9, type: 3}
+  keypadError: {fileID: 8300000, guid: 9fe40b68e9c3069469bdcf023c68a6b6, type: 3}
+  tubeCrack:
+  - {fileID: 8300000, guid: 8a78a62fa097f384ca94486d2024072e, type: 3}
+  - {fileID: 8300000, guid: ae711ec138f48614eb5832bebc2076af, type: 3}
+  - {fileID: 8300000, guid: b98c3874c78125045bb29dc54c0dfc8f, type: 3}
+  - {fileID: 8300000, guid: bd293b6cb285a074bb16b2cc366bbf75, type: 3}
+  tubeShatter:
+  - {fileID: 8300000, guid: 335be30b759975743be3dee8e371005d, type: 3}
+  - {fileID: 8300000, guid: 178cdc3de1c8c3544819f1f7f8b0203f, type: 3}
+  - {fileID: 8300000, guid: ea13427083e6bf74983eefdbabe441d7, type: 3}
+  tubeSplash: {fileID: 8300000, guid: 61d999a1d34302945aa48cf136e45667, type: 3}
+  ghostRise: {fileID: 8300000, guid: b5238a30791dbb146bf576bed57df313, type: 3}
+  ghostAmbienceLoop: {fileID: 8300000, guid: 2a50bfe85bad60c4d815e67b3d562e88, type: 3}
