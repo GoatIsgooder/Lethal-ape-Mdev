@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SlopGame_WaterBiRP 4
+  m_Shader: {fileID: 4800000, guid: 6cd7eafa3ac52f44d9034ccffd549084, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - FOAM_ON
+  - GERSTNER_ON
+  - RIPPLES_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      Texture2D_40d1b6435c73444a8bf21e2de0eb021f:
+        m_Texture: {fileID: 2800000, guid: 13074d9e6816d0f45954ed0ee6b7cf67, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      Texture2D_a1433b49937f480db28b8cc459ef36f5:
+        m_Texture: {fileID: 2800000, guid: e9c5de2e1f0786f47988ba4f0ac47071, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      Texture2D_e0e9f6b982f34470a5e1d61a4e0a237f:
+        m_Texture: {fileID: 2800000, guid: 45f4bd3e4c4fe204da15131aa8f50e5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ReflectionCubemap:
+        m_Texture: {fileID: 8900000, guid: 3edfeb8f4271f764a9628fe1ec7e1c3a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      Vector1_08b02a5734a045829127dc604212bb0d: 8
+      Vector1_1708105bc3c74e92a4d8c7c3658385c0: 50
+      Vector1_1953120eb9d64aafa2a042654df704ee: 24.8
+      Vector1_37de310b539940d38b9841a740423684: 0.1
+      Vector1_4aa82ce25dfc4718b9e16b98aa9f1bef: 0.5
+      Vector1_6729378f81fd4ab3ac941f56ecbc0b8a: 1
+      Vector1_6beb98ff56f0482cb4e80757a71d9149: 1.53
+      Vector1_74cf11a838884a1ca1da33cc0cfb2077: 0.39
+      Vector1_7993b655d9af4590b2e1943d549d5c36: 1.85
+      Vector1_7cd3298c5f0d4a81be78e5b8a8fa137a: 29.16
+      Vector1_84038b57e2ab496c882ca72079eb3418: 0.32
+      Vector1_8950b44aee124c4d916556ec8c87ef3f: 0.79
+      Vector1_8a1bf0ab1dfd4094acd813c59c34bab4: 4
+      Vector1_956a889d62c14ab9bf8ca5ef37d8794c: 0.48
+      Vector1_9871f392684d4d8f921e20c82f82a154: 0.09
+      Vector1_aceb7f103de1435a8b3d9517a5757774: 0.97
+      Vector1_cf55867b574a463c83ba155329dfea64: 2.48
+      Vector1_d65ce49734ae4a889b5a1e141f1418cd: 0.1
+      Vector1_da6639f1356b4847af429a09a44e9ef8: 0.021
+      Vector1_e4c0786ba735455fa3d208984b11c9ad: 0.05
+      Vector1_ecd239cc1ed14f97a1905f8c5ce01744: 0.38
+      Vector1_ee8257dba9e7468b8f824fde8f68a03d: 0.1
+      Vector1_f13a308ec7df400098746ab25c30f63f: 0.49
+      Vector1_f2a453661f3f4a5ba9e048487956f02d: 17.2
+      Vector1_fe60c19674c74223a4aca25f564af887: 1
+      Vector1_fe7b1070c3dc4d1da621ee668cf66978: 0.4
+      _DepthFadeDistance: 2.9
+      _DepthFadeEnabled: 0
+      _DepthFadeExp: 1.4
+      _EdgeFadeWidth: 0.12
+      _FakeDepthMax: 8
+      _FloorHeight: -2
+      _FoamEnabled: 1
+      _FoamShoreThreshold: 0.4
+      _FoamTiling: 0.5
+      _FoamWaveStrength: 4
+      _FresnelPower: 4
+      _GerstnerEnabled: 1
+      _NegateFloorHeight: 0
+      _NormalStrength: 0.05
+      _NormalTiling: 20
+      _ReflectionBlur: 2
+      _ReflectionClamp: 1.01
+      _ReflectionStrength: 0.7
+      _RefractionEnabled: 0
+      _RefractionStrength: 0.25
+      _RippleStrength: 1.13
+      _RippleTiling: 0.3
+      _RipplesEnabled: 1
+      _ShoreFadeStrength: 1
+      _WaveLength: 7.5
+      _WaveSpeed: 0.49
+      _WaveSteepness: 0.09
+    m_Colors:
+      Color_4cf6d225bd134001ab7dcea1fb58fb6e: {r: 0.1194375, g: 0.33772615, b: 0.41509432, a: 0}
+      Color_ff449a8570c14274ba55e8d07cd83774: {r: 0.3921569, g: 0.8392157, b: 0.83921564, a: 0}
+      Vector3_29655a8efb534bd89e33fc6e29d3419e: {r: 0, g: 1.4, b: 0, a: 0}
+      Vector4_9cbc85c0b2da4bf9a5ef28ed25ca1aac: {r: 3, g: 12.13, b: 13.24, a: 3.63}
+      _DeepColor: {r: 0.12999997, g: 0.27999997, b: 0.33999997, a: 0.95}
+      _FoamColor: {r: 1, g: 1, b: 1, a: 0.9}
+      _FoamScrollSpeed: {r: 0.02, g: 0.01, b: 0, a: 0}
+      _RippleSpeed: {r: 0.05, g: 0.03, b: 0, a: 0}
+      _ScrollSpeed1: {r: 0.04, g: 0.02, b: 0, a: 0}
+      _ScrollSpeed2: {r: -0.02, g: 0.04, b: 0, a: 0}
+      _ShallowColor: {r: 0.089999996, g: 0.56, b: 0.38999996, a: 0.65}
+      _WaveDirections: {r: 3, g: 12.13, b: 13.24, a: 3.63}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

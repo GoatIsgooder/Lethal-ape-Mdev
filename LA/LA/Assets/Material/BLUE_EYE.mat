@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BLUE_EYE
+  m_Shader: {fileID: 4800000, guid: 21067eababcf88344808ed48f92f0497, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: {}
+    m_Ints: {}
+    m_Floats:
+      _BUILTIN_QueueControl: 0
+      _BUILTIN_QueueOffset: 0
+      _DistanceFadeStart: 10
+      _EyeBackSize: 1.29
+      _InvertX: 1
+      _InvertY: 1
+      _IrisOffset: 0
+      _MaxDistance: 20
+      _MaxLookAngle: 0
+      _PupilSize: 0.24
+      _Smoothness: 0.9
+      _UseObjectSpace: 0
+    m_Colors:
+      _EyeBack: {r: 0, g: 0.89254516, b: 2, a: 0}
+      _EyeVains: {r: 0, g: 0, b: 0, a: 0}
+      _EyeWhite: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

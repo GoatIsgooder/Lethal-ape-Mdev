@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FurCorruption 1
+  m_Shader: {fileID: 4800000, guid: 85e8547aaa55d7145a7f9140c2236277, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - BAKERY_LMSPEC
+  - BAKERY_SHNONLINEAR
+  - BAKERY_VOLUME
+  - CORRUPTION_ON
+  - _GLOSSYREFLECTIONS_OFF
+  - _NORMALMAP
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 77153c5172134c148aeb513d5a704526, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ColorMap:
+        m_Texture: {fileID: 2800000, guid: 2d14ac180c5d0b340a95c7a5b773c853, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4a92663146d7c954588a40476ff93b0f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Volume0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Volume1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Volume2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _VolumeMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BAKERY_2SIDED: 2
+      _BAKERY_2SIDEDON: 0
+      _BAKERY_BICUBIC: 0
+      _BAKERY_LMSPEC: 1
+      _BAKERY_LMSPECOCCLUSION: 0
+      _BAKERY_MONOSH: 0
+      _BAKERY_PROBESHNONLINEAR: 0
+      _BAKERY_RNM: 0
+      _BAKERY_SH: 0
+      _BAKERY_SHNONLINEAR: 1
+      _BAKERY_VERTEXLM: 0
+      _BAKERY_VERTEXLMDIR: 0
+      _BAKERY_VERTEXLMMASK: 0
+      _BAKERY_VERTEXLMSH: 0
+      _BAKERY_VOLPUSHBYNORMAL: 0
+      _BAKERY_VOLROTATION: 0
+      _BAKERY_VOLROTATIONY: 0
+      _BAKERY_VOLUME: 1
+      _BumpScale: 0.96
+      _ColorMapStrength: 1
+      _CorruptionAmount: 0.225
+      _CorruptionBlackStrength: 1
+      _CorruptionEdge: 0.069
+      _CorruptionEdgeWidth: 0.11
+      _CorruptionOn: 1
+      _CorruptionRedStrength: 5
+      _CorruptionScale: 8
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossMapScale: 0
+      _Glossiness: 0.422
+      _GlossyReflections: 0
+      _HighlightTopo: 0
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _RGBSpeed: 0.1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _TopoLineWidth: 0.01
+      _UVSec: 0
+      _VolumeNormalOffset: 0
+      _ZWrite: 1
+      _isRGB: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _CorruptionColor: {r: 0.3962264, g: 0, b: 0, a: 1}
+      _CorruptionDirection: {r: 0.56, g: -1.16, b: 0, a: 0}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _SpecOcclusionParams: {r: 10, g: -0.5, b: 0.8, a: 0}
+      _TopoLineColor: {r: 0, g: 1, b: 0, a: 1}
+      _VolumeInvSize: {r: 1000001, g: 1000001, b: 1000001, a: 1}
+      _VolumeMin: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GoldenPig
+  m_Shader: {fileID: 4800000, guid: f5721d8b5a80ccb46940e86f861736c5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _MASKMAP
+  - _REFRACTION
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AO:
+        m_Texture: {fileID: 2800000, guid: 1b98c822e0f72c14e9063060b14bbd97, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: d14e884999e31514aad1677657411268, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+      _MaskMap:
+        m_Texture: {fileID: 2800000, guid: f92ed48932a316b4696cd321a39998be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MoneyTex:
+        m_Texture: {fileID: 2800000, guid: e8f43f77eb8a69148b32ff9a474153a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AOEnabled: 0
+      _AOStrength: 0
+      _AOUseUV1: 0
+      _AbsorbDensity: 0
+      _BumpScale: 0.78
+      _CapSurfaceGlow: 0.25
+      _CapTiling: 1
+      _Cull: 2
+      _Cutoff: 0.5
+      _DepthDarken: 0.391
+      _DetailNormalMapScale: 1
+      _DstBlend: 10
+      _Emission: 0.04
+      _Fill: 0.414
+      _FillNoise: 0.109
+      _FillNoiseScale: 6.96
+      _FillWorldSpace: 0
+      _FillYMax: 0.5
+      _FillYMin: -0.5
+      _FresnelAlpha: 0.91
+      _FresnelIntensity: 2
+      _FresnelPower: 7.38
+      _GlassAlpha: 1
+      _Gloss: 1
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _InteriorBrightness: 1.057
+      _InteriorTint: 0.28
+      _MaskAlphaIsRoughness: 1
+      _Metallic: 0
+      _Mode: 0
+      _MoneyMode: 0
+      _MoneyTiling: 3
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Reflection: 2
+      _RefractChroma: 0.039
+      _RefractStrength: 0.091
+      _RefractTint: 0
+      _Smoothness: 1
+      _SmoothnessTextureChannel: 0
+      _SpecPower: 256
+      _SpecularHighlights: 1
+      _SrcBlend: 5
+      _SurfaceBand: 0.5
+      _SurfaceGlow: 1.55
+      _UVSec: 0
+      _UseMaskMap: 1
+      _UseRefraction: 1
+      _ZWrite: 0
+    m_Colors:
+      _AbsorbColor: {r: 1, g: 1, b: 1, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _FresnelColor: {r: 1, g: 0.91775924, b: 0.55660367, a: 1}
+      _GlassColor: {r: 1, g: 0.8953362, b: 0.49371064, a: 1}
+      _MoneyColor: {r: 0.7512439, g: 0.9559748, b: 0.7244966, a: 1}
+      _ReflectionColor: {r: 1, g: 0.85, b: 0.5, a: 1}
+      _SpecTint: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

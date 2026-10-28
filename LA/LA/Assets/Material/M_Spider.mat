@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Spider
+  m_Shader: {fileID: 4800000, guid: 0a5fb3ba239c565418750b55d70565a6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - BAKERY_LMSPEC
+  - BAKERY_SHNONLINEAR
+  - BAKERY_VOLUME
+  - _EMISSION
+  - _GLOSSYREFLECTIONS_OFF
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 5f32a11c43005794fbb95e18a789bf03, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BAKERY_2SIDED: 2
+      _BAKERY_2SIDEDON: 0
+      _BAKERY_BICUBIC: 0
+      _BAKERY_LMSPEC: 1
+      _BAKERY_LMSPECOCCLUSION: 0
+      _BAKERY_MONOSH: 0
+      _BAKERY_PROBESHNONLINEAR: 0
+      _BAKERY_RNM: 0
+      _BAKERY_SH: 0
+      _BAKERY_SHNONLINEAR: 1
+      _BAKERY_VERTEXLM: 0
+      _BAKERY_VERTEXLMDIR: 0
+      _BAKERY_VERTEXLMMASK: 0
+      _BAKERY_VERTEXLMSH: 0
+      _BAKERY_VOLPUSHBYNORMAL: 0
+      _BAKERY_VOLROTATION: 0
+      _BAKERY_VOLROTATIONY: 0
+      _BAKERY_VOLUME: 1
+      _BlackPoint: 0
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DarkClear: 0.1
+      _DetailNormalMapScale: 1
+      _DoubleSided: 0
+      _DstBlend: 0
+      _Emission: 0.06
+      _FadeFar: 3
+      _FadeNear: 1.5
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 0
+      _InsideShade: 0.12
+      _LightColor: 0
+      _Lighting: 1
+      _Metallic: 0
+      _MirroredMesh: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Opacity: 0
+      _Parallax: 0.02
+      _PulseAmount: 0.3
+      _PulseSpeed: 2.2
+      _RimPower: 1.61
+      _RimStrength: 4
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _VolumeNormalOffset: 0
+      _Waver: 0.12
+      _WhitePoint: 0.16
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _RimColor: {r: 0.10323961, g: 0.754717, b: 0.58719426, a: 1}
+      _SpecOcclusionParams: {r: 10, g: -0.5, b: 0.8, a: 0}
+      _VolumeInvSize: {r: 1000001, g: 1000001, b: 1000001, a: 1}
+      _VolumeMin: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0
