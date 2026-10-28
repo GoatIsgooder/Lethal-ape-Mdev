@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ca84e725c7c764aa5ed097918d14b7, type: 3}
+  m_Name: ftLocalStorage
+  m_EditorClassIdentifier: 
+  modifiedAssetPathList:
+  - Assets/Bakery/examples/content/sponza/sponza.FBX
+  - Assets/Resources/Models/Props/FakeDoor/fakeDoor.blend
+  - Assets/Resources/Models/Props/Locker/Lockers.blend
+  - Assets/Resources/Models/Props/Cardboard/cardbord.fbx
+  - Assets/Resources/Models/Props/VendingMachine/VendingMachine.blend
+  - Assets/Resources/Models/Props/Trash/TrashBin.fbx
+  - Assets/Resources/Models/Props/BigTable/BigTable.blend
+  - Assets/Resources/Models/Props/Vent/Vent.blend
+  - Assets/Resources/Models/Props/Crates/Crate.blend
+  - Assets/Resources/Models/Maps/LARREVAMPMAP.blend
+  - Assets/Resources/Models/Props/ScrapTyingy/Untitled.blend
+  - Assets/Resources/Models/Props/Bench/bench.blend
+  - Assets/Resources/Models/Props/WallLight/wallLight.blend
+  - Assets/Resources/Models/Props/TableDesk/TableDesk.blend
+  - Assets/Resources/Models/Props/Computer/Button.blend
+  - Assets/Resources/Models/Props/Computer/Monitor.blend
+  - Assets/Resources/Models/Props/SandPile/SandPile.blend
+  - Assets/Resources/Models/Maps/LARREVAMPMAP 1.blend
+  - Assets/Resources/Models/Props/Elevator/DoorButton.blend
+  - Assets/Resources/Models/Props/Elevator 1/Elevator.blend
+  - Assets/Resources/Models/Maps/Map (3).blend
+  - Assets/Resources/Models/Props/Crates/crateOpen.blend
+  - Assets/Resources/Models/Props/Stand/BundleStand.blend
+  - Assets/Resources/Models/Props/WoodenPallet/WoodenPallet.fbx
+  - Assets/Resources/Models/Maps/VipRoomPiller.fbx
+  - Assets/Resources/SFX/Ambient/intercom lines/Model/IntercomSpeacker.fbx
+  - Assets/Resources/Models/Props/christmas 2025/present/model/Present.fbx
+  - Assets/Resources/Models/Characters/LAR_Ape/GoldenMonkey.fbx
+  - Assets/Resources/Models/Maps/XmasLAR.blend
+  - Assets/Resources/Models/Props/ATM_Machine/ATM.blend
+  - Assets/Resources/Models/Props/rippedassets/ServerPanel.fbx
+  - Assets/Resources/Models/Props/rippedassets/Speakers.fbx
+  - Assets/Resources/Models/Props/Board/credits.blend
+  - Assets/Resources/Models/Props/christmas 2025/carpet/carpet.blend
+  - Assets/Resources/Models/Maps/Map(1).blend
+  - Assets/Resources/Models/Props/Pipe/PipeMe.fbx
+  - Assets/Resources/Models/Maps/pillers 1.fbx
+  - Assets/Resources/Models/Maps/Map(1) 1.blend
+  - Assets/Resources/Models/Maps/Map 1.blend
+  - Assets/Models/RivalryMap 1.blend
+  - Assets/Models/RivalryMap.blend
+  - Assets/Models/Signs.blend
+  - Assets/Models/MapTextures/RivalryMap.blend
+  - Assets/Models/MapTextures/Signs.blend
+  - Assets/Models/ChechersMaps.blend
+  - Assets/Models/Sky.fbx
+  - Assets/Models/MapSelect.blend
+  modifiedAssetPaddingHash: d6a958ffbe398033f6ce2efef827c115da7d9363275031ee695031eef227c115b72c789f363fd3d96d67e2a8be398033ecc12491275031eeecc124919250cf356d67e2a848fac9deecc12491be4608c81fd9d20312a56a5c7c398033f8398033194efff0feb209cec2c4d890ecc12491363fd3d9fa4dfff0c44608c8d60aecc04e53349ec25031ee00fffa91e8ebeb71323fd3d9922b0455363fd3d9b9929f28363fd3d9310c5b36bdbcf30845fffc9a53f130ec383fd3d9abebc2e0
