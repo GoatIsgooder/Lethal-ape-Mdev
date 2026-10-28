@@ -1,0 +1,56 @@
+# Unity generated directories (project lives under LA/LA/)
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+*.log
+**/.claude/settings.local.json
+
+# Generated IDE files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+.vs/
+.vscode/
+.idea/
+
+# Build products and extracted tooling/data
+*.apk
+*.aab
+*.obb
+/_il2cpp/
+/_pkgs/
+/_tools/
+/guid_backup/
+/guid_backup_photon_bakery/
+/material_backup/
+/scene_backup/
+/LA/LA/Assets/_Recovery/
+
+# Signing keys and local secrets
+*.keystore
+*.jks
+*.pem
+*.pfx
+*.p12
+.env
+.env.*
+!.env.example
+
+# Python cache / OS noise
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
