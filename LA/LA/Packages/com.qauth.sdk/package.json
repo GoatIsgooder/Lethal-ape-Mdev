@@ -1,0 +1,22 @@
+{
+  "name": "com.qauth.sdk",
+  "version": "2.4.0",
+  "displayName": "Qauth SDK",
+  "description": "Unity client for Qauth (qauth.wtf): Meta login and attestation, Photon custom auth, cloud saves, coins, items and shop, trading, leaderboards, friends and presence, season pass, staff messages and live events.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Qauth",
+    "url": "https://qauth.wtf"
+  },
+  "keywords": [
+    "meta quest",
+    "attestation",
+    "photon",
+    "backend",
+    "cloud save",
+    "leaderboards"
+  ],
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Qauth.Meta",
+    "rootNamespace": "QauthSdk",
+    "references": ["Qauth.Runtime", "Oculus.Platform"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": ["QAUTH_META_PLATFORM"],
+    "versionDefines": [
+        { "name": "com.meta.xr.sdk.platform", "expression": "55.0.0", "define": "QAUTH_META_PLATFORM" },
+        { "name": "com.meta.xr.sdk.all", "expression": "55.0.0", "define": "QAUTH_META_PLATFORM" }
+    ],
+    "noEngineReferences": false
+}

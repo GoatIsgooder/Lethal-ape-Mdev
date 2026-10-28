@@ -1,0 +1,14 @@
+{
+    "name": "Qauth.Photon",
+    "rootNamespace": "QauthSdk",
+    "references": ["Qauth.Runtime", "PhotonRealtime", "PhotonUnityNetworking"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": ["PHOTON_UNITY_NETWORKING"],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
